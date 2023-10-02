@@ -1,0 +1,2688 @@
+*SPEF "ieee 1481-1999"
+*DESIGN "user_project_wrapper"
+*DATE "11:11:11 Fri 11 11, 1111"
+*VENDOR "OpenRCX"
+*PROGRAM "Parallel Extraction"
+*VERSION "1.0"
+*DESIGN_FLOW "NAME_SCOPE LOCAL" "PIN_CAP NONE"
+*DIVIDER /
+*DELIMITER :
+*BUS_DELIMITER []
+*T_UNIT 1 NS
+*C_UNIT 1 PF
+*R_UNIT 1 OHM
+*L_UNIT 1 HENRY
+
+*NAME_MAP
+*1 analog_io[0]
+*2 analog_io[10]
+*3 analog_io[11]
+*4 analog_io[12]
+*5 analog_io[13]
+*6 analog_io[14]
+*7 analog_io[15]
+*8 analog_io[16]
+*9 analog_io[17]
+*10 analog_io[18]
+*11 analog_io[19]
+*12 analog_io[1]
+*13 analog_io[20]
+*14 analog_io[21]
+*15 analog_io[22]
+*16 analog_io[23]
+*17 analog_io[24]
+*18 analog_io[25]
+*19 analog_io[26]
+*20 analog_io[27]
+*21 analog_io[28]
+*22 analog_io[2]
+*23 analog_io[3]
+*24 analog_io[4]
+*25 analog_io[5]
+*26 analog_io[6]
+*27 analog_io[7]
+*28 analog_io[8]
+*29 analog_io[9]
+*30 io_in[0]
+*31 io_in[10]
+*32 io_in[11]
+*33 io_in[12]
+*34 io_in[13]
+*35 io_in[14]
+*36 io_in[15]
+*37 io_in[16]
+*38 io_in[17]
+*39 io_in[18]
+*40 io_in[19]
+*41 io_in[1]
+*42 io_in[20]
+*43 io_in[21]
+*44 io_in[22]
+*45 io_in[23]
+*46 io_in[24]
+*47 io_in[25]
+*48 io_in[26]
+*49 io_in[27]
+*50 io_in[28]
+*51 io_in[29]
+*52 io_in[2]
+*53 io_in[30]
+*54 io_in[31]
+*55 io_in[32]
+*56 io_in[33]
+*57 io_in[34]
+*58 io_in[35]
+*59 io_in[36]
+*60 io_in[37]
+*61 io_in[3]
+*62 io_in[4]
+*63 io_in[5]
+*64 io_in[6]
+*65 io_in[7]
+*66 io_in[8]
+*67 io_in[9]
+*68 io_oeb[0]
+*69 io_oeb[10]
+*70 io_oeb[11]
+*71 io_oeb[12]
+*72 io_oeb[13]
+*73 io_oeb[14]
+*74 io_oeb[15]
+*75 io_oeb[16]
+*76 io_oeb[17]
+*77 io_oeb[18]
+*78 io_oeb[19]
+*79 io_oeb[1]
+*80 io_oeb[20]
+*81 io_oeb[21]
+*82 io_oeb[22]
+*83 io_oeb[23]
+*84 io_oeb[24]
+*85 io_oeb[25]
+*86 io_oeb[26]
+*87 io_oeb[27]
+*88 io_oeb[28]
+*89 io_oeb[29]
+*90 io_oeb[2]
+*91 io_oeb[30]
+*92 io_oeb[31]
+*93 io_oeb[32]
+*94 io_oeb[33]
+*95 io_oeb[34]
+*96 io_oeb[35]
+*97 io_oeb[36]
+*98 io_oeb[37]
+*99 io_oeb[3]
+*100 io_oeb[4]
+*101 io_oeb[5]
+*102 io_oeb[6]
+*103 io_oeb[7]
+*104 io_oeb[8]
+*105 io_oeb[9]
+*106 io_out[0]
+*107 io_out[10]
+*108 io_out[11]
+*109 io_out[12]
+*110 io_out[13]
+*111 io_out[14]
+*112 io_out[15]
+*113 io_out[16]
+*114 io_out[17]
+*115 io_out[18]
+*116 io_out[19]
+*117 io_out[1]
+*118 io_out[20]
+*119 io_out[21]
+*120 io_out[22]
+*121 io_out[23]
+*122 io_out[24]
+*123 io_out[25]
+*124 io_out[26]
+*125 io_out[27]
+*126 io_out[28]
+*127 io_out[29]
+*128 io_out[2]
+*129 io_out[30]
+*130 io_out[31]
+*131 io_out[32]
+*132 io_out[33]
+*133 io_out[34]
+*134 io_out[35]
+*135 io_out[36]
+*136 io_out[37]
+*137 io_out[3]
+*138 io_out[4]
+*139 io_out[5]
+*140 io_out[6]
+*141 io_out[7]
+*142 io_out[8]
+*143 io_out[9]
+*144 la_data_in[0]
+*145 la_data_in[100]
+*146 la_data_in[101]
+*147 la_data_in[102]
+*148 la_data_in[103]
+*149 la_data_in[104]
+*150 la_data_in[105]
+*151 la_data_in[106]
+*152 la_data_in[107]
+*153 la_data_in[108]
+*154 la_data_in[109]
+*155 la_data_in[10]
+*156 la_data_in[110]
+*157 la_data_in[111]
+*158 la_data_in[112]
+*159 la_data_in[113]
+*160 la_data_in[114]
+*161 la_data_in[115]
+*162 la_data_in[116]
+*163 la_data_in[117]
+*164 la_data_in[118]
+*165 la_data_in[119]
+*166 la_data_in[11]
+*167 la_data_in[120]
+*168 la_data_in[121]
+*169 la_data_in[122]
+*170 la_data_in[123]
+*171 la_data_in[124]
+*172 la_data_in[125]
+*173 la_data_in[126]
+*174 la_data_in[127]
+*175 la_data_in[12]
+*176 la_data_in[13]
+*177 la_data_in[14]
+*178 la_data_in[15]
+*179 la_data_in[16]
+*180 la_data_in[17]
+*181 la_data_in[18]
+*182 la_data_in[19]
+*183 la_data_in[1]
+*184 la_data_in[20]
+*185 la_data_in[21]
+*186 la_data_in[22]
+*187 la_data_in[23]
+*188 la_data_in[24]
+*189 la_data_in[25]
+*190 la_data_in[26]
+*191 la_data_in[27]
+*192 la_data_in[28]
+*193 la_data_in[29]
+*194 la_data_in[2]
+*195 la_data_in[30]
+*196 la_data_in[31]
+*197 la_data_in[32]
+*198 la_data_in[33]
+*199 la_data_in[34]
+*200 la_data_in[35]
+*201 la_data_in[36]
+*202 la_data_in[37]
+*203 la_data_in[38]
+*204 la_data_in[39]
+*205 la_data_in[3]
+*206 la_data_in[40]
+*207 la_data_in[41]
+*208 la_data_in[42]
+*209 la_data_in[43]
+*210 la_data_in[44]
+*211 la_data_in[45]
+*212 la_data_in[46]
+*213 la_data_in[47]
+*214 la_data_in[48]
+*215 la_data_in[49]
+*216 la_data_in[4]
+*217 la_data_in[50]
+*218 la_data_in[51]
+*219 la_data_in[52]
+*220 la_data_in[53]
+*221 la_data_in[54]
+*222 la_data_in[55]
+*223 la_data_in[56]
+*224 la_data_in[57]
+*225 la_data_in[58]
+*226 la_data_in[59]
+*227 la_data_in[5]
+*228 la_data_in[60]
+*229 la_data_in[61]
+*230 la_data_in[62]
+*231 la_data_in[63]
+*232 la_data_in[64]
+*233 la_data_in[65]
+*234 la_data_in[66]
+*235 la_data_in[67]
+*236 la_data_in[68]
+*237 la_data_in[69]
+*238 la_data_in[6]
+*239 la_data_in[70]
+*240 la_data_in[71]
+*241 la_data_in[72]
+*242 la_data_in[73]
+*243 la_data_in[74]
+*244 la_data_in[75]
+*245 la_data_in[76]
+*246 la_data_in[77]
+*247 la_data_in[78]
+*248 la_data_in[79]
+*249 la_data_in[7]
+*250 la_data_in[80]
+*251 la_data_in[81]
+*252 la_data_in[82]
+*253 la_data_in[83]
+*254 la_data_in[84]
+*255 la_data_in[85]
+*256 la_data_in[86]
+*257 la_data_in[87]
+*258 la_data_in[88]
+*259 la_data_in[89]
+*260 la_data_in[8]
+*261 la_data_in[90]
+*262 la_data_in[91]
+*263 la_data_in[92]
+*264 la_data_in[93]
+*265 la_data_in[94]
+*266 la_data_in[95]
+*267 la_data_in[96]
+*268 la_data_in[97]
+*269 la_data_in[98]
+*270 la_data_in[99]
+*271 la_data_in[9]
+*272 la_data_out[0]
+*273 la_data_out[100]
+*274 la_data_out[101]
+*275 la_data_out[102]
+*276 la_data_out[103]
+*277 la_data_out[104]
+*278 la_data_out[105]
+*279 la_data_out[106]
+*280 la_data_out[107]
+*281 la_data_out[108]
+*282 la_data_out[109]
+*283 la_data_out[10]
+*284 la_data_out[110]
+*285 la_data_out[111]
+*286 la_data_out[112]
+*287 la_data_out[113]
+*288 la_data_out[114]
+*289 la_data_out[115]
+*290 la_data_out[116]
+*291 la_data_out[117]
+*292 la_data_out[118]
+*293 la_data_out[119]
+*294 la_data_out[11]
+*295 la_data_out[120]
+*296 la_data_out[121]
+*297 la_data_out[122]
+*298 la_data_out[123]
+*299 la_data_out[124]
+*300 la_data_out[125]
+*301 la_data_out[126]
+*302 la_data_out[127]
+*303 la_data_out[12]
+*304 la_data_out[13]
+*305 la_data_out[14]
+*306 la_data_out[15]
+*307 la_data_out[16]
+*308 la_data_out[17]
+*309 la_data_out[18]
+*310 la_data_out[19]
+*311 la_data_out[1]
+*312 la_data_out[20]
+*313 la_data_out[21]
+*314 la_data_out[22]
+*315 la_data_out[23]
+*316 la_data_out[24]
+*317 la_data_out[25]
+*318 la_data_out[26]
+*319 la_data_out[27]
+*320 la_data_out[28]
+*321 la_data_out[29]
+*322 la_data_out[2]
+*323 la_data_out[30]
+*324 la_data_out[31]
+*325 la_data_out[32]
+*326 la_data_out[33]
+*327 la_data_out[34]
+*328 la_data_out[35]
+*329 la_data_out[36]
+*330 la_data_out[37]
+*331 la_data_out[38]
+*332 la_data_out[39]
+*333 la_data_out[3]
+*334 la_data_out[40]
+*335 la_data_out[41]
+*336 la_data_out[42]
+*337 la_data_out[43]
+*338 la_data_out[44]
+*339 la_data_out[45]
+*340 la_data_out[46]
+*341 la_data_out[47]
+*342 la_data_out[48]
+*343 la_data_out[49]
+*344 la_data_out[4]
+*345 la_data_out[50]
+*346 la_data_out[51]
+*347 la_data_out[52]
+*348 la_data_out[53]
+*349 la_data_out[54]
+*350 la_data_out[55]
+*351 la_data_out[56]
+*352 la_data_out[57]
+*353 la_data_out[58]
+*354 la_data_out[59]
+*355 la_data_out[5]
+*356 la_data_out[60]
+*357 la_data_out[61]
+*358 la_data_out[62]
+*359 la_data_out[63]
+*360 la_data_out[64]
+*361 la_data_out[65]
+*362 la_data_out[66]
+*363 la_data_out[67]
+*364 la_data_out[68]
+*365 la_data_out[69]
+*366 la_data_out[6]
+*367 la_data_out[70]
+*368 la_data_out[71]
+*369 la_data_out[72]
+*370 la_data_out[73]
+*371 la_data_out[74]
+*372 la_data_out[75]
+*373 la_data_out[76]
+*374 la_data_out[77]
+*375 la_data_out[78]
+*376 la_data_out[79]
+*377 la_data_out[7]
+*378 la_data_out[80]
+*379 la_data_out[81]
+*380 la_data_out[82]
+*381 la_data_out[83]
+*382 la_data_out[84]
+*383 la_data_out[85]
+*384 la_data_out[86]
+*385 la_data_out[87]
+*386 la_data_out[88]
+*387 la_data_out[89]
+*388 la_data_out[8]
+*389 la_data_out[90]
+*390 la_data_out[91]
+*391 la_data_out[92]
+*392 la_data_out[93]
+*393 la_data_out[94]
+*394 la_data_out[95]
+*395 la_data_out[96]
+*396 la_data_out[97]
+*397 la_data_out[98]
+*398 la_data_out[99]
+*399 la_data_out[9]
+*400 la_oenb[0]
+*401 la_oenb[100]
+*402 la_oenb[101]
+*403 la_oenb[102]
+*404 la_oenb[103]
+*405 la_oenb[104]
+*406 la_oenb[105]
+*407 la_oenb[106]
+*408 la_oenb[107]
+*409 la_oenb[108]
+*410 la_oenb[109]
+*411 la_oenb[10]
+*412 la_oenb[110]
+*413 la_oenb[111]
+*414 la_oenb[112]
+*415 la_oenb[113]
+*416 la_oenb[114]
+*417 la_oenb[115]
+*418 la_oenb[116]
+*419 la_oenb[117]
+*420 la_oenb[118]
+*421 la_oenb[119]
+*422 la_oenb[11]
+*423 la_oenb[120]
+*424 la_oenb[121]
+*425 la_oenb[122]
+*426 la_oenb[123]
+*427 la_oenb[124]
+*428 la_oenb[125]
+*429 la_oenb[126]
+*430 la_oenb[127]
+*431 la_oenb[12]
+*432 la_oenb[13]
+*433 la_oenb[14]
+*434 la_oenb[15]
+*435 la_oenb[16]
+*436 la_oenb[17]
+*437 la_oenb[18]
+*438 la_oenb[19]
+*439 la_oenb[1]
+*440 la_oenb[20]
+*441 la_oenb[21]
+*442 la_oenb[22]
+*443 la_oenb[23]
+*444 la_oenb[24]
+*445 la_oenb[25]
+*446 la_oenb[26]
+*447 la_oenb[27]
+*448 la_oenb[28]
+*449 la_oenb[29]
+*450 la_oenb[2]
+*451 la_oenb[30]
+*452 la_oenb[31]
+*453 la_oenb[32]
+*454 la_oenb[33]
+*455 la_oenb[34]
+*456 la_oenb[35]
+*457 la_oenb[36]
+*458 la_oenb[37]
+*459 la_oenb[38]
+*460 la_oenb[39]
+*461 la_oenb[3]
+*462 la_oenb[40]
+*463 la_oenb[41]
+*464 la_oenb[42]
+*465 la_oenb[43]
+*466 la_oenb[44]
+*467 la_oenb[45]
+*468 la_oenb[46]
+*469 la_oenb[47]
+*470 la_oenb[48]
+*471 la_oenb[49]
+*472 la_oenb[4]
+*473 la_oenb[50]
+*474 la_oenb[51]
+*475 la_oenb[52]
+*476 la_oenb[53]
+*477 la_oenb[54]
+*478 la_oenb[55]
+*479 la_oenb[56]
+*480 la_oenb[57]
+*481 la_oenb[58]
+*482 la_oenb[59]
+*483 la_oenb[5]
+*484 la_oenb[60]
+*485 la_oenb[61]
+*486 la_oenb[62]
+*487 la_oenb[63]
+*488 la_oenb[64]
+*489 la_oenb[65]
+*490 la_oenb[66]
+*491 la_oenb[67]
+*492 la_oenb[68]
+*493 la_oenb[69]
+*494 la_oenb[6]
+*495 la_oenb[70]
+*496 la_oenb[71]
+*497 la_oenb[72]
+*498 la_oenb[73]
+*499 la_oenb[74]
+*500 la_oenb[75]
+*501 la_oenb[76]
+*502 la_oenb[77]
+*503 la_oenb[78]
+*504 la_oenb[79]
+*505 la_oenb[7]
+*506 la_oenb[80]
+*507 la_oenb[81]
+*508 la_oenb[82]
+*509 la_oenb[83]
+*510 la_oenb[84]
+*511 la_oenb[85]
+*512 la_oenb[86]
+*513 la_oenb[87]
+*514 la_oenb[88]
+*515 la_oenb[89]
+*516 la_oenb[8]
+*517 la_oenb[90]
+*518 la_oenb[91]
+*519 la_oenb[92]
+*520 la_oenb[93]
+*521 la_oenb[94]
+*522 la_oenb[95]
+*523 la_oenb[96]
+*524 la_oenb[97]
+*525 la_oenb[98]
+*526 la_oenb[99]
+*527 la_oenb[9]
+*528 user_clock2
+*529 user_irq[0]
+*530 user_irq[1]
+*531 user_irq[2]
+*540 wb_clk_i
+*541 wb_rst_i
+*542 wbs_ack_o
+*543 wbs_adr_i[0]
+*544 wbs_adr_i[10]
+*545 wbs_adr_i[11]
+*546 wbs_adr_i[12]
+*547 wbs_adr_i[13]
+*548 wbs_adr_i[14]
+*549 wbs_adr_i[15]
+*550 wbs_adr_i[16]
+*551 wbs_adr_i[17]
+*552 wbs_adr_i[18]
+*553 wbs_adr_i[19]
+*554 wbs_adr_i[1]
+*555 wbs_adr_i[20]
+*556 wbs_adr_i[21]
+*557 wbs_adr_i[22]
+*558 wbs_adr_i[23]
+*559 wbs_adr_i[24]
+*560 wbs_adr_i[25]
+*561 wbs_adr_i[26]
+*562 wbs_adr_i[27]
+*563 wbs_adr_i[28]
+*564 wbs_adr_i[29]
+*565 wbs_adr_i[2]
+*566 wbs_adr_i[30]
+*567 wbs_adr_i[31]
+*568 wbs_adr_i[3]
+*569 wbs_adr_i[4]
+*570 wbs_adr_i[5]
+*571 wbs_adr_i[6]
+*572 wbs_adr_i[7]
+*573 wbs_adr_i[8]
+*574 wbs_adr_i[9]
+*575 wbs_cyc_i
+*576 wbs_dat_i[0]
+*577 wbs_dat_i[10]
+*578 wbs_dat_i[11]
+*579 wbs_dat_i[12]
+*580 wbs_dat_i[13]
+*581 wbs_dat_i[14]
+*582 wbs_dat_i[15]
+*583 wbs_dat_i[16]
+*584 wbs_dat_i[17]
+*585 wbs_dat_i[18]
+*586 wbs_dat_i[19]
+*587 wbs_dat_i[1]
+*588 wbs_dat_i[20]
+*589 wbs_dat_i[21]
+*590 wbs_dat_i[22]
+*591 wbs_dat_i[23]
+*592 wbs_dat_i[24]
+*593 wbs_dat_i[25]
+*594 wbs_dat_i[26]
+*595 wbs_dat_i[27]
+*596 wbs_dat_i[28]
+*597 wbs_dat_i[29]
+*598 wbs_dat_i[2]
+*599 wbs_dat_i[30]
+*600 wbs_dat_i[31]
+*601 wbs_dat_i[3]
+*602 wbs_dat_i[4]
+*603 wbs_dat_i[5]
+*604 wbs_dat_i[6]
+*605 wbs_dat_i[7]
+*606 wbs_dat_i[8]
+*607 wbs_dat_i[9]
+*608 wbs_dat_o[0]
+*609 wbs_dat_o[10]
+*610 wbs_dat_o[11]
+*611 wbs_dat_o[12]
+*612 wbs_dat_o[13]
+*613 wbs_dat_o[14]
+*614 wbs_dat_o[15]
+*615 wbs_dat_o[16]
+*616 wbs_dat_o[17]
+*617 wbs_dat_o[18]
+*618 wbs_dat_o[19]
+*619 wbs_dat_o[1]
+*620 wbs_dat_o[20]
+*621 wbs_dat_o[21]
+*622 wbs_dat_o[22]
+*623 wbs_dat_o[23]
+*624 wbs_dat_o[24]
+*625 wbs_dat_o[25]
+*626 wbs_dat_o[26]
+*627 wbs_dat_o[27]
+*628 wbs_dat_o[28]
+*629 wbs_dat_o[29]
+*630 wbs_dat_o[2]
+*631 wbs_dat_o[30]
+*632 wbs_dat_o[31]
+*633 wbs_dat_o[3]
+*634 wbs_dat_o[4]
+*635 wbs_dat_o[5]
+*636 wbs_dat_o[6]
+*637 wbs_dat_o[7]
+*638 wbs_dat_o[8]
+*639 wbs_dat_o[9]
+*640 wbs_sel_i[0]
+*641 wbs_sel_i[1]
+*642 wbs_sel_i[2]
+*643 wbs_sel_i[3]
+*644 wbs_stb_i
+*645 wbs_we_i
+*646 R4_butter
+
+*PORTS
+analog_io[0] I
+analog_io[10] I
+analog_io[11] I
+analog_io[12] I
+analog_io[13] I
+analog_io[14] I
+analog_io[15] I
+analog_io[16] I
+analog_io[17] I
+analog_io[18] I
+analog_io[19] I
+analog_io[1] I
+analog_io[20] I
+analog_io[21] I
+analog_io[22] I
+analog_io[23] I
+analog_io[24] I
+analog_io[25] I
+analog_io[26] I
+analog_io[27] I
+analog_io[28] I
+analog_io[2] I
+analog_io[3] I
+analog_io[4] I
+analog_io[5] I
+analog_io[6] I
+analog_io[7] I
+analog_io[8] I
+analog_io[9] I
+io_in[0] I
+io_in[10] I
+io_in[11] I
+io_in[12] I
+io_in[13] I
+io_in[14] I
+io_in[15] I
+io_in[16] I
+io_in[17] I
+io_in[18] I
+io_in[19] I
+io_in[1] I
+io_in[20] I
+io_in[21] I
+io_in[22] I
+io_in[23] I
+io_in[24] I
+io_in[25] I
+io_in[26] I
+io_in[27] I
+io_in[28] I
+io_in[29] I
+io_in[2] I
+io_in[30] I
+io_in[31] I
+io_in[32] I
+io_in[33] I
+io_in[34] I
+io_in[35] I
+io_in[36] I
+io_in[37] I
+io_in[3] I
+io_in[4] I
+io_in[5] I
+io_in[6] I
+io_in[7] I
+io_in[8] I
+io_in[9] I
+io_oeb[0] O
+io_oeb[10] O
+io_oeb[11] O
+io_oeb[12] O
+io_oeb[13] O
+io_oeb[14] O
+io_oeb[15] O
+io_oeb[16] O
+io_oeb[17] O
+io_oeb[18] O
+io_oeb[19] O
+io_oeb[1] O
+io_oeb[20] O
+io_oeb[21] O
+io_oeb[22] O
+io_oeb[23] O
+io_oeb[24] O
+io_oeb[25] O
+io_oeb[26] O
+io_oeb[27] O
+io_oeb[28] O
+io_oeb[29] O
+io_oeb[2] O
+io_oeb[30] O
+io_oeb[31] O
+io_oeb[32] O
+io_oeb[33] O
+io_oeb[34] O
+io_oeb[35] O
+io_oeb[36] O
+io_oeb[37] O
+io_oeb[3] O
+io_oeb[4] O
+io_oeb[5] O
+io_oeb[6] O
+io_oeb[7] O
+io_oeb[8] O
+io_oeb[9] O
+io_out[0] O
+io_out[10] O
+io_out[11] O
+io_out[12] O
+io_out[13] O
+io_out[14] O
+io_out[15] O
+io_out[16] O
+io_out[17] O
+io_out[18] O
+io_out[19] O
+io_out[1] O
+io_out[20] O
+io_out[21] O
+io_out[22] O
+io_out[23] O
+io_out[24] O
+io_out[25] O
+io_out[26] O
+io_out[27] O
+io_out[28] O
+io_out[29] O
+io_out[2] O
+io_out[30] O
+io_out[31] O
+io_out[32] O
+io_out[33] O
+io_out[34] O
+io_out[35] O
+io_out[36] O
+io_out[37] O
+io_out[3] O
+io_out[4] O
+io_out[5] O
+io_out[6] O
+io_out[7] O
+io_out[8] O
+io_out[9] O
+la_data_in[0] I
+la_data_in[100] I
+la_data_in[101] I
+la_data_in[102] I
+la_data_in[103] I
+la_data_in[104] I
+la_data_in[105] I
+la_data_in[106] I
+la_data_in[107] I
+la_data_in[108] I
+la_data_in[109] I
+la_data_in[10] I
+la_data_in[110] I
+la_data_in[111] I
+la_data_in[112] I
+la_data_in[113] I
+la_data_in[114] I
+la_data_in[115] I
+la_data_in[116] I
+la_data_in[117] I
+la_data_in[118] I
+la_data_in[119] I
+la_data_in[11] I
+la_data_in[120] I
+la_data_in[121] I
+la_data_in[122] I
+la_data_in[123] I
+la_data_in[124] I
+la_data_in[125] I
+la_data_in[126] I
+la_data_in[127] I
+la_data_in[12] I
+la_data_in[13] I
+la_data_in[14] I
+la_data_in[15] I
+la_data_in[16] I
+la_data_in[17] I
+la_data_in[18] I
+la_data_in[19] I
+la_data_in[1] I
+la_data_in[20] I
+la_data_in[21] I
+la_data_in[22] I
+la_data_in[23] I
+la_data_in[24] I
+la_data_in[25] I
+la_data_in[26] I
+la_data_in[27] I
+la_data_in[28] I
+la_data_in[29] I
+la_data_in[2] I
+la_data_in[30] I
+la_data_in[31] I
+la_data_in[32] I
+la_data_in[33] I
+la_data_in[34] I
+la_data_in[35] I
+la_data_in[36] I
+la_data_in[37] I
+la_data_in[38] I
+la_data_in[39] I
+la_data_in[3] I
+la_data_in[40] I
+la_data_in[41] I
+la_data_in[42] I
+la_data_in[43] I
+la_data_in[44] I
+la_data_in[45] I
+la_data_in[46] I
+la_data_in[47] I
+la_data_in[48] I
+la_data_in[49] I
+la_data_in[4] I
+la_data_in[50] I
+la_data_in[51] I
+la_data_in[52] I
+la_data_in[53] I
+la_data_in[54] I
+la_data_in[55] I
+la_data_in[56] I
+la_data_in[57] I
+la_data_in[58] I
+la_data_in[59] I
+la_data_in[5] I
+la_data_in[60] I
+la_data_in[61] I
+la_data_in[62] I
+la_data_in[63] I
+la_data_in[64] I
+la_data_in[65] I
+la_data_in[66] I
+la_data_in[67] I
+la_data_in[68] I
+la_data_in[69] I
+la_data_in[6] I
+la_data_in[70] I
+la_data_in[71] I
+la_data_in[72] I
+la_data_in[73] I
+la_data_in[74] I
+la_data_in[75] I
+la_data_in[76] I
+la_data_in[77] I
+la_data_in[78] I
+la_data_in[79] I
+la_data_in[7] I
+la_data_in[80] I
+la_data_in[81] I
+la_data_in[82] I
+la_data_in[83] I
+la_data_in[84] I
+la_data_in[85] I
+la_data_in[86] I
+la_data_in[87] I
+la_data_in[88] I
+la_data_in[89] I
+la_data_in[8] I
+la_data_in[90] I
+la_data_in[91] I
+la_data_in[92] I
+la_data_in[93] I
+la_data_in[94] I
+la_data_in[95] I
+la_data_in[96] I
+la_data_in[97] I
+la_data_in[98] I
+la_data_in[99] I
+la_data_in[9] I
+la_data_out[0] O
+la_data_out[100] O
+la_data_out[101] O
+la_data_out[102] O
+la_data_out[103] O
+la_data_out[104] O
+la_data_out[105] O
+la_data_out[106] O
+la_data_out[107] O
+la_data_out[108] O
+la_data_out[109] O
+la_data_out[10] O
+la_data_out[110] O
+la_data_out[111] O
+la_data_out[112] O
+la_data_out[113] O
+la_data_out[114] O
+la_data_out[115] O
+la_data_out[116] O
+la_data_out[117] O
+la_data_out[118] O
+la_data_out[119] O
+la_data_out[11] O
+la_data_out[120] O
+la_data_out[121] O
+la_data_out[122] O
+la_data_out[123] O
+la_data_out[124] O
+la_data_out[125] O
+la_data_out[126] O
+la_data_out[127] O
+la_data_out[12] O
+la_data_out[13] O
+la_data_out[14] O
+la_data_out[15] O
+la_data_out[16] O
+la_data_out[17] O
+la_data_out[18] O
+la_data_out[19] O
+la_data_out[1] O
+la_data_out[20] O
+la_data_out[21] O
+la_data_out[22] O
+la_data_out[23] O
+la_data_out[24] O
+la_data_out[25] O
+la_data_out[26] O
+la_data_out[27] O
+la_data_out[28] O
+la_data_out[29] O
+la_data_out[2] O
+la_data_out[30] O
+la_data_out[31] O
+la_data_out[32] O
+la_data_out[33] O
+la_data_out[34] O
+la_data_out[35] O
+la_data_out[36] O
+la_data_out[37] O
+la_data_out[38] O
+la_data_out[39] O
+la_data_out[3] O
+la_data_out[40] O
+la_data_out[41] O
+la_data_out[42] O
+la_data_out[43] O
+la_data_out[44] O
+la_data_out[45] O
+la_data_out[46] O
+la_data_out[47] O
+la_data_out[48] O
+la_data_out[49] O
+la_data_out[4] O
+la_data_out[50] O
+la_data_out[51] O
+la_data_out[52] O
+la_data_out[53] O
+la_data_out[54] O
+la_data_out[55] O
+la_data_out[56] O
+la_data_out[57] O
+la_data_out[58] O
+la_data_out[59] O
+la_data_out[5] O
+la_data_out[60] O
+la_data_out[61] O
+la_data_out[62] O
+la_data_out[63] O
+la_data_out[64] O
+la_data_out[65] O
+la_data_out[66] O
+la_data_out[67] O
+la_data_out[68] O
+la_data_out[69] O
+la_data_out[6] O
+la_data_out[70] O
+la_data_out[71] O
+la_data_out[72] O
+la_data_out[73] O
+la_data_out[74] O
+la_data_out[75] O
+la_data_out[76] O
+la_data_out[77] O
+la_data_out[78] O
+la_data_out[79] O
+la_data_out[7] O
+la_data_out[80] O
+la_data_out[81] O
+la_data_out[82] O
+la_data_out[83] O
+la_data_out[84] O
+la_data_out[85] O
+la_data_out[86] O
+la_data_out[87] O
+la_data_out[88] O
+la_data_out[89] O
+la_data_out[8] O
+la_data_out[90] O
+la_data_out[91] O
+la_data_out[92] O
+la_data_out[93] O
+la_data_out[94] O
+la_data_out[95] O
+la_data_out[96] O
+la_data_out[97] O
+la_data_out[98] O
+la_data_out[99] O
+la_data_out[9] O
+la_oenb[0] I
+la_oenb[100] I
+la_oenb[101] I
+la_oenb[102] I
+la_oenb[103] I
+la_oenb[104] I
+la_oenb[105] I
+la_oenb[106] I
+la_oenb[107] I
+la_oenb[108] I
+la_oenb[109] I
+la_oenb[10] I
+la_oenb[110] I
+la_oenb[111] I
+la_oenb[112] I
+la_oenb[113] I
+la_oenb[114] I
+la_oenb[115] I
+la_oenb[116] I
+la_oenb[117] I
+la_oenb[118] I
+la_oenb[119] I
+la_oenb[11] I
+la_oenb[120] I
+la_oenb[121] I
+la_oenb[122] I
+la_oenb[123] I
+la_oenb[124] I
+la_oenb[125] I
+la_oenb[126] I
+la_oenb[127] I
+la_oenb[12] I
+la_oenb[13] I
+la_oenb[14] I
+la_oenb[15] I
+la_oenb[16] I
+la_oenb[17] I
+la_oenb[18] I
+la_oenb[19] I
+la_oenb[1] I
+la_oenb[20] I
+la_oenb[21] I
+la_oenb[22] I
+la_oenb[23] I
+la_oenb[24] I
+la_oenb[25] I
+la_oenb[26] I
+la_oenb[27] I
+la_oenb[28] I
+la_oenb[29] I
+la_oenb[2] I
+la_oenb[30] I
+la_oenb[31] I
+la_oenb[32] I
+la_oenb[33] I
+la_oenb[34] I
+la_oenb[35] I
+la_oenb[36] I
+la_oenb[37] I
+la_oenb[38] I
+la_oenb[39] I
+la_oenb[3] I
+la_oenb[40] I
+la_oenb[41] I
+la_oenb[42] I
+la_oenb[43] I
+la_oenb[44] I
+la_oenb[45] I
+la_oenb[46] I
+la_oenb[47] I
+la_oenb[48] I
+la_oenb[49] I
+la_oenb[4] I
+la_oenb[50] I
+la_oenb[51] I
+la_oenb[52] I
+la_oenb[53] I
+la_oenb[54] I
+la_oenb[55] I
+la_oenb[56] I
+la_oenb[57] I
+la_oenb[58] I
+la_oenb[59] I
+la_oenb[5] I
+la_oenb[60] I
+la_oenb[61] I
+la_oenb[62] I
+la_oenb[63] I
+la_oenb[64] I
+la_oenb[65] I
+la_oenb[66] I
+la_oenb[67] I
+la_oenb[68] I
+la_oenb[69] I
+la_oenb[6] I
+la_oenb[70] I
+la_oenb[71] I
+la_oenb[72] I
+la_oenb[73] I
+la_oenb[74] I
+la_oenb[75] I
+la_oenb[76] I
+la_oenb[77] I
+la_oenb[78] I
+la_oenb[79] I
+la_oenb[7] I
+la_oenb[80] I
+la_oenb[81] I
+la_oenb[82] I
+la_oenb[83] I
+la_oenb[84] I
+la_oenb[85] I
+la_oenb[86] I
+la_oenb[87] I
+la_oenb[88] I
+la_oenb[89] I
+la_oenb[8] I
+la_oenb[90] I
+la_oenb[91] I
+la_oenb[92] I
+la_oenb[93] I
+la_oenb[94] I
+la_oenb[95] I
+la_oenb[96] I
+la_oenb[97] I
+la_oenb[98] I
+la_oenb[99] I
+la_oenb[9] I
+user_clock2 I
+user_irq[0] O
+user_irq[1] O
+user_irq[2] O
+wb_clk_i I
+wb_rst_i I
+wbs_ack_o O
+wbs_adr_i[0] I
+wbs_adr_i[10] I
+wbs_adr_i[11] I
+wbs_adr_i[12] I
+wbs_adr_i[13] I
+wbs_adr_i[14] I
+wbs_adr_i[15] I
+wbs_adr_i[16] I
+wbs_adr_i[17] I
+wbs_adr_i[18] I
+wbs_adr_i[19] I
+wbs_adr_i[1] I
+wbs_adr_i[20] I
+wbs_adr_i[21] I
+wbs_adr_i[22] I
+wbs_adr_i[23] I
+wbs_adr_i[24] I
+wbs_adr_i[25] I
+wbs_adr_i[26] I
+wbs_adr_i[27] I
+wbs_adr_i[28] I
+wbs_adr_i[29] I
+wbs_adr_i[2] I
+wbs_adr_i[30] I
+wbs_adr_i[31] I
+wbs_adr_i[3] I
+wbs_adr_i[4] I
+wbs_adr_i[5] I
+wbs_adr_i[6] I
+wbs_adr_i[7] I
+wbs_adr_i[8] I
+wbs_adr_i[9] I
+wbs_cyc_i I
+wbs_dat_i[0] I
+wbs_dat_i[10] I
+wbs_dat_i[11] I
+wbs_dat_i[12] I
+wbs_dat_i[13] I
+wbs_dat_i[14] I
+wbs_dat_i[15] I
+wbs_dat_i[16] I
+wbs_dat_i[17] I
+wbs_dat_i[18] I
+wbs_dat_i[19] I
+wbs_dat_i[1] I
+wbs_dat_i[20] I
+wbs_dat_i[21] I
+wbs_dat_i[22] I
+wbs_dat_i[23] I
+wbs_dat_i[24] I
+wbs_dat_i[25] I
+wbs_dat_i[26] I
+wbs_dat_i[27] I
+wbs_dat_i[28] I
+wbs_dat_i[29] I
+wbs_dat_i[2] I
+wbs_dat_i[30] I
+wbs_dat_i[31] I
+wbs_dat_i[3] I
+wbs_dat_i[4] I
+wbs_dat_i[5] I
+wbs_dat_i[6] I
+wbs_dat_i[7] I
+wbs_dat_i[8] I
+wbs_dat_i[9] I
+wbs_dat_o[0] O
+wbs_dat_o[10] O
+wbs_dat_o[11] O
+wbs_dat_o[12] O
+wbs_dat_o[13] O
+wbs_dat_o[14] O
+wbs_dat_o[15] O
+wbs_dat_o[16] O
+wbs_dat_o[17] O
+wbs_dat_o[18] O
+wbs_dat_o[19] O
+wbs_dat_o[1] O
+wbs_dat_o[20] O
+wbs_dat_o[21] O
+wbs_dat_o[22] O
+wbs_dat_o[23] O
+wbs_dat_o[24] O
+wbs_dat_o[25] O
+wbs_dat_o[26] O
+wbs_dat_o[27] O
+wbs_dat_o[28] O
+wbs_dat_o[29] O
+wbs_dat_o[2] O
+wbs_dat_o[30] O
+wbs_dat_o[31] O
+wbs_dat_o[3] O
+wbs_dat_o[4] O
+wbs_dat_o[5] O
+wbs_dat_o[6] O
+wbs_dat_o[7] O
+wbs_dat_o[8] O
+wbs_dat_o[9] O
+wbs_sel_i[0] I
+wbs_sel_i[1] I
+wbs_sel_i[2] I
+wbs_sel_i[3] I
+wbs_stb_i I
+wbs_we_i I
+
+*D_NET *155 0.550049
+*CONN
+*P la_data_in[10] I
+*I *646:xr0[2] I *D R4_butter
+*CAP
+1 la_data_in[10] 0.000396074
+2 *646:xr0[2] 0.000460743
+3 *155:11 0.0134579
+4 *155:10 0.0129972
+5 *155:8 0.0597529
+6 *155:7 0.0601489
+7 *155:8 *166:8 0.193885
+8 *155:8 *176:8 7.31062e-05
+9 *155:8 *187:8 0.0802171
+10 *155:11 *178:11 0.00984167
+11 *155:11 *185:13 0.0532973
+12 *155:11 *191:11 0.0650126
+13 *155:11 *197:11 0.000508764
+14 *155:11 *209:15 0
+*RES
+1 la_data_in[10] *155:7 12.3036 
+2 *155:7 *155:8 1839.3 
+3 *155:8 *155:10 4.5 
+4 *155:10 *155:11 808.991 
+5 *155:11 *646:xr0[2] 4.47847 
+*END
+
+*D_NET *166 0.70897
+*CONN
+*P la_data_in[11] I
+*I *646:xr0[3] I *D R4_butter
+*CAP
+1 la_data_in[11] 0.000417875
+2 *646:xr0[3] 0.000278253
+3 *166:11 0.0188704
+4 *166:10 0.0185922
+5 *166:8 0.0225899
+6 *166:7 0.0230078
+7 *166:8 *175:8 0.191885
+8 *166:8 *176:8 0.000181869
+9 *166:8 *187:8 0.036542
+10 *166:11 *178:11 0.00156019
+11 *166:11 *180:13 0
+12 *166:11 *181:13 9.22054e-05
+13 *166:11 *187:21 0.0032522
+14 *166:11 *187:27 0.0187781
+15 *166:11 *202:11 0.0816121
+16 *166:11 *203:11 0.0974248
+17 *155:8 *166:8 0.193885
+*RES
+1 la_data_in[11] *166:7 12.6071 
+2 *166:7 *166:8 1821.23 
+3 *166:8 *166:10 4.5 
+4 *166:10 *166:11 1197.26 
+5 *166:11 *646:xr0[3] 4.11813 
+*END
+
+*D_NET *175 0.479917
+*CONN
+*P la_data_in[12] I
+*I *646:xr1[0] I *D R4_butter
+*CAP
+1 la_data_in[12] 0.000439676
+2 *646:xr1[0] 5.92295e-05
+3 *175:11 0.00224592
+4 *175:10 0.00218669
+5 *175:8 0.0223223
+6 *175:7 0.022762
+7 *175:8 *176:8 0.19018
+8 *175:8 *187:8 0.0317658
+9 *175:11 *179:11 0.00876118
+10 *175:11 *189:13 0.00566849
+11 *175:11 *190:13 3.57844e-05
+12 *175:11 *192:17 0.00160523
+13 *175:11 *203:11 0
+14 *166:8 *175:8 0.191885
+*RES
+1 la_data_in[12] *175:7 12.9107 
+2 *175:7 *175:8 1802.34 
+3 *175:8 *175:10 4.5 
+4 *175:10 *175:11 108.955 
+5 *175:11 *646:xr1[0] 3.5416 
+*END
+
+*D_NET *176 0.539243
+*CONN
+*P la_data_in[13] I
+*I *646:xr1[1] I *D R4_butter
+*CAP
+1 la_data_in[13] 0.000461477
+2 *646:xr1[1] 0.000505789
+3 *176:11 0.0109888
+4 *176:10 0.010483
+5 *176:8 0.0224279
+6 *176:7 0.0228893
+7 *176:8 *177:8 0.188225
+8 *176:8 *179:8 0.00013725
+9 *176:8 *187:8 0.0246018
+10 *176:8 *202:8 4.15531e-05
+11 *176:11 *178:11 0.00598398
+12 *176:11 *184:13 0.0215165
+13 *176:11 *185:13 0.0405456
+14 *176:11 *209:15 0
+15 *155:8 *176:8 7.31062e-05
+16 *166:8 *176:8 0.000181869
+17 *175:8 *176:8 0.19018
+*RES
+1 la_data_in[13] *176:7 13.2143 
+2 *176:7 *176:8 1792.48 
+3 *176:8 *176:10 4.5 
+4 *176:10 *176:11 497.223 
+5 *176:11 *646:xr1[1] 4.6226 
+*END
+
+*D_NET *177 0.61003
+*CONN
+*P la_data_in[14] I
+*I *646:xr1[2] I *D R4_butter
+*CAP
+1 la_data_in[14] 0.000471559
+2 *646:xr1[2] 0.000173935
+3 *177:11 0.0151651
+4 *177:10 0.0149912
+5 *177:8 0.0221819
+6 *177:7 0.0226534
+7 *177:8 *179:8 0.184865
+8 *177:8 *187:8 0.0188707
+9 *177:11 *646:xi1[0] 0.000194922
+10 *177:11 *646:xr0[0] 0.00118052
+11 *177:11 *182:27 0.00212689
+12 *177:11 *182:44 0.00144771
+13 *177:11 *182:45 0.0119355
+14 *177:11 *186:13 2.05938e-05
+15 *177:11 *186:19 0.0687605
+16 *177:11 *198:25 0.000102335
+17 *177:11 *201:11 3.23864e-05
+18 *177:11 *207:11 0.0560077
+19 *177:11 *208:20 0.000622838
+20 *176:8 *177:8 0.188225
+*RES
+1 la_data_in[14] *177:7 13.5179 
+2 *177:7 *177:8 1767.84 
+3 *177:8 *177:10 4.5 
+4 *177:10 *177:11 884.277 
+5 *177:11 *646:xr1[2] 3.7296 
+*END
+
+*D_NET *178 0.730719
+*CONN
+*P la_data_in[15] I
+*I *646:xr1[3] I *D R4_butter
+*CAP
+1 la_data_in[15] 0.00108154
+2 *646:xr1[3] 0.000273697
+3 *178:11 0.0463711
+4 *178:10 0.0460974
+5 *178:8 0.0385478
+6 *178:7 0.0396293
+7 *178:8 *191:8 0.00216919
+8 *178:8 *192:8 0.174337
+9 *178:8 *198:8 0.16536
+10 *178:8 *208:20 0
+11 *178:8 *211:8 0.0152389
+12 *178:8 *283:16 0.000323115
+13 *178:8 *307:11 0
+14 *178:11 *181:13 0.019149
+15 *178:11 *184:13 0.00310592
+16 *178:11 *185:13 0.00792043
+17 *178:11 *187:21 0.0157017
+18 *178:11 *187:25 0.001975
+19 *178:11 *187:27 0.0851696
+20 *178:11 *191:11 0.0143521
+21 *178:11 *197:11 0.016981
+22 *178:11 *202:11 0.0178146
+23 *178:11 *203:11 0.00173433
+24 *178:11 *307:8 0
+25 *155:11 *178:11 0.00984167
+26 *166:11 *178:11 0.00156019
+27 *176:11 *178:11 0.00598398
+*RES
+1 la_data_in[15] *178:7 23.5082 
+2 *178:7 *178:8 308.528 
+3 *178:8 *178:10 3.41 
+4 *178:10 *178:11 221.636 
+5 *178:11 *646:xr1[3] 4.15417 
+*END
+
+*D_NET *179 0.451243
+*CONN
+*P la_data_in[16] I
+*I *646:xr2[0] I *D R4_butter
+*CAP
+1 la_data_in[16] 0.000492857
+2 *646:xr2[0] 0.000296828
+3 *179:11 0.00379862
+4 *179:10 0.00350179
+5 *179:8 0.0259757
+6 *179:7 0.0264685
+7 *179:8 *187:8 0.0183826
+8 *179:8 *196:8 0.159717
+9 *179:8 *202:8 2.60984e-05
+10 *179:11 *646:xi1[0] 0.00021794
+11 *179:11 *182:27 2.2355e-05
+12 *179:11 *190:13 0.0149023
+13 *179:11 *192:17 0.00243416
+14 *179:11 *198:22 0.00124257
+15 *179:11 *203:11 0
+16 *175:11 *179:11 0.00876118
+17 *176:8 *179:8 0.00013725
+18 *177:8 *179:8 0.184865
+*RES
+1 la_data_in[16] *179:7 13.8214 
+2 *179:7 *179:8 1738.68 
+3 *179:8 *179:10 4.5 
+4 *179:10 *179:11 183.33 
+5 *179:11 *646:xr2[0] 3.94267 
+*END
+
+*D_NET *180 0.488718
+*CONN
+*P la_data_in[17] I
+*I *646:xr2[1] I *D R4_butter
+*CAP
+1 la_data_in[17] 6.13413e-05
+2 *646:xr2[1] 0.00032018
+3 *180:19 0.00760319
+4 *180:18 0.00747781
+5 *180:13 0.00199936
+6 *180:12 0.00180457
+7 *180:10 0.0557022
+8 *180:9 0.0557635
+9 *646:xr2[1] *192:19 0.000322558
+10 *180:10 *181:10 0.181973
+11 *180:10 *182:16 0.0774166
+12 *180:13 *181:13 0
+13 *180:13 *189:13 0.00411093
+14 *180:13 *192:17 0.000344409
+15 *180:13 *203:11 0
+16 *180:18 *186:18 6.05161e-06
+17 *180:19 *646:xi1[0] 0.000129533
+18 *180:19 *196:11 0.0400561
+19 *180:19 *198:22 0.00155146
+20 *180:19 *198:25 0.00885282
+21 *180:19 *201:11 0.0432225
+22 *166:11 *180:13 0
+*RES
+1 la_data_in[17] *180:9 5.66071 
+2 *180:9 *180:10 1723.07 
+3 *180:10 *180:12 4.5 
+4 *180:12 *180:13 52.6429 
+5 *180:13 *180:18 11.5893 
+6 *180:18 *180:19 529.705 
+7 *180:19 *646:xr2[1] 3.94267 
+*END
+
+*D_NET *181 0.645915
+*CONN
+*P la_data_in[18] I
+*I *646:xr2[2] I *D R4_butter
+*CAP
+1 la_data_in[18] 6.28041e-05
+2 *646:xr2[2] 0.000343613
+3 *181:13 0.0134948
+4 *181:12 0.0131512
+5 *181:10 0.0214922
+6 *181:9 0.021555
+7 *181:10 *182:16 0.04134
+8 *181:10 *184:10 0.178694
+9 *181:13 *185:13 0
+10 *181:13 *187:21 0.000102643
+11 *181:13 *197:11 0.076014
+12 *181:13 *202:11 0.0784503
+13 *166:11 *181:13 9.22054e-05
+14 *178:11 *181:13 0.019149
+15 *180:10 *181:10 0.181973
+16 *180:13 *181:13 0
+*RES
+1 la_data_in[18] *181:9 5.66071 
+2 *181:9 *181:10 1711.98 
+3 *181:10 *181:12 4.5 
+4 *181:12 *181:13 972.92 
+5 *181:13 *646:xr2[2] 4.26227 
+*END
+
+*D_NET *182 0.705933
+*CONN
+*P la_data_in[19] I
+*I *646:xr2[3] I *D R4_butter
+*CAP
+1 la_data_in[19] 0.000231608
+2 *646:xr2[3] 0
+3 *182:45 0.04122
+4 *182:44 0.0453973
+5 *182:27 0.0109959
+6 *182:16 0.0724448
+7 *182:15 0.0658577
+8 *182:16 *184:10 0.00315559
+9 *182:16 *185:10 0.00247754
+10 *182:16 *186:10 0.00114243
+11 *182:16 *189:10 0.000713762
+12 *182:16 *195:8 0.170182
+13 *182:27 *646:xi1[0] 0.00107432
+14 *182:27 *646:xr0[0] 0.000819838
+15 *182:27 *186:13 0.000229203
+16 *182:27 *186:19 0.00235232
+17 *182:27 *187:21 0
+18 *182:27 *192:17 0.000265217
+19 *182:27 *198:22 0.0105727
+20 *182:27 *203:11 0
+21 *182:27 *207:11 0.00211778
+22 *182:44 *646:xi2[0] 0
+23 *182:44 *190:13 0.00104933
+24 *182:44 *192:19 0.000228533
+25 *182:44 *198:22 0.00025461
+26 *182:44 *198:25 0.00676823
+27 *182:44 *203:11 0
+28 *182:44 *207:11 0.00161945
+29 *182:45 *646:xr3[2] 0.000322558
+30 *182:45 *186:19 0.029501
+31 *182:45 *187:27 0
+32 *182:45 *198:25 0.0912792
+33 *182:45 *207:11 0.00937063
+34 *177:11 *182:27 0.00212689
+35 *177:11 *182:44 0.00144771
+36 *177:11 *182:45 0.0119355
+37 *179:11 *182:27 2.2355e-05
+38 *180:10 *182:16 0.0774166
+39 *181:10 *182:16 0.04134
+*RES
+1 la_data_in[19] *182:15 8.8475 
+2 *182:15 *182:16 296.061 
+3 *182:16 *182:27 49.0853 
+4 *182:27 *182:44 49.1348 
+5 *182:44 *182:45 197.24 
+6 *182:45 *646:xr2[3] 3.41 
+*END
+
+*D_NET *184 0.478542
+*CONN
+*P la_data_in[20] I
+*I *646:xr3[0] I *D R4_butter
+*CAP
+1 la_data_in[20] 0.000166008
+2 *646:xr3[0] 0.000563203
+3 *184:13 0.00900002
+4 *184:12 0.00843681
+5 *184:10 0.0207382
+6 *184:9 0.0209042
+7 *184:10 *185:10 0.177205
+8 *184:10 *195:8 0.0346542
+9 *184:10 *206:8 0
+10 *184:13 *185:13 0.000402468
+11 *184:13 *209:15 0
+12 *184:13 *306:8 0
+13 *176:11 *184:13 0.0215165
+14 *178:11 *184:13 0.00310592
+15 *181:10 *184:10 0.178694
+16 *182:16 *184:10 0.00315559
+*RES
+1 la_data_in[20] *184:9 6.48214 
+2 *184:9 *184:10 1680.36 
+3 *184:10 *184:12 4.5 
+4 *184:12 *184:13 273.188 
+5 *184:13 *646:xr3[0] 4.69467 
+*END
+
+*D_NET *185 0.559237
+*CONN
+*P la_data_in[21] I
+*I *646:xr3[1] I *D R4_butter
+*CAP
+1 la_data_in[21] 0.000140898
+2 *646:xr3[1] 0.000473354
+3 *185:13 0.011658
+4 *185:12 0.0111847
+5 *185:10 0.0204864
+6 *185:9 0.0206273
+7 *185:10 *186:10 0.174976
+8 *185:10 *189:10 0.000122159
+9 *185:10 *195:8 0.0373683
+10 *185:10 *197:8 0.00012258
+11 *185:10 *206:8 1.42064e-05
+12 *185:13 *197:11 0.000214489
+13 *185:13 *209:15 0
+14 *155:11 *185:13 0.0532973
+15 *176:11 *185:13 0.0405456
+16 *178:11 *185:13 0.00792043
+17 *181:13 *185:13 0
+18 *182:16 *185:10 0.00247754
+19 *184:10 *185:10 0.177205
+20 *184:13 *185:13 0.000402468
+*RES
+1 la_data_in[21] *185:9 6.48214 
+2 *185:9 *185:10 1663.93 
+3 *185:10 *185:12 4.5 
+4 *185:12 *185:13 661.455 
+5 *185:13 *646:xr3[1] 4.55053 
+*END
+
+*D_NET *186 0.601059
+*CONN
+*P la_data_in[22] I
+*I *646:xr3[2] I *D R4_butter
+*CAP
+1 la_data_in[22] 0.000115838
+2 *646:xr3[2] 0.000181449
+3 *186:19 0.0333028
+4 *186:18 0.0332537
+5 *186:13 0.0011691
+6 *186:12 0.00103673
+7 *186:10 0.020968
+8 *186:9 0.0210839
+9 *186:10 *189:10 0.169631
+10 *186:10 *195:8 0.00181464
+11 *186:10 *200:8 0.0326655
+12 *186:13 *190:13 0.000377025
+13 *186:13 *196:11 0.00332645
+14 *186:13 *198:22 0.000548306
+15 *186:13 *201:11 0.00329806
+16 *186:19 *646:xi1[0] 0.000976225
+17 *177:11 *186:13 2.05938e-05
+18 *177:11 *186:19 0.0687605
+19 *180:18 *186:18 6.05161e-06
+20 *182:16 *186:10 0.00114243
+21 *182:27 *186:13 0.000229203
+22 *182:27 *186:19 0.00235232
+23 *182:45 *646:xr3[2] 0.000322558
+24 *182:45 *186:19 0.029501
+25 *185:10 *186:10 0.174976
+*RES
+1 la_data_in[22] *186:9 5.66071 
+2 *186:9 *186:10 1642.98 
+3 *186:10 *186:12 4.5 
+4 *186:12 *186:13 50.8214 
+5 *186:13 *186:18 10.7679 
+6 *186:18 *186:19 996.598 
+7 *186:19 *646:xr3[2] 3.94267 
+*END
+
+*D_NET *187 0.693315
+*CONN
+*P la_data_in[23] I
+*I *646:xr3[3] I *D R4_butter
+*CAP
+1 la_data_in[23] 0.000370873
+2 *646:xr3[3] 0.00019553
+3 *187:27 0.0453056
+4 *187:25 0.0466249
+5 *187:21 0.0101192
+6 *187:8 0.102779
+7 *187:7 0.0945456
+8 *187:8 *196:8 0.0169524
+9 *187:8 *294:11 0
+10 *187:21 *192:17 0.00187038
+11 *187:21 *192:19 0.00011188
+12 *187:21 *203:11 0.00288535
+13 *187:21 *307:8 0
+14 *187:25 *192:19 0.000439999
+15 *187:27 *192:19 0
+16 *187:27 *198:25 0
+17 *187:27 *203:11 0.0357551
+18 *187:27 *307:8 0
+19 *155:8 *187:8 0.0802171
+20 *166:8 *187:8 0.036542
+21 *166:11 *187:21 0.0032522
+22 *166:11 *187:27 0.0187781
+23 *175:8 *187:8 0.0317658
+24 *176:8 *187:8 0.0246018
+25 *177:8 *187:8 0.0188707
+26 *178:11 *187:21 0.0157017
+27 *178:11 *187:25 0.001975
+28 *178:11 *187:27 0.0851696
+29 *179:8 *187:8 0.0183826
+30 *181:13 *187:21 0.000102643
+31 *182:27 *187:21 0
+32 *182:45 *187:27 0
+*RES
+1 la_data_in[23] *187:7 10.7582 
+2 *187:7 *187:8 286.188 
+3 *187:8 *187:21 42.5767 
+4 *187:21 *187:25 7.80513 
+5 *187:25 *187:27 205.127 
+6 *187:27 *646:xr3[3] 4.01003 
+*END
+
+*D_NET *189 0.42969
+*CONN
+*P la_data_in[25] I
+*I *646:xi0[0] I *D R4_butter
+*CAP
+1 la_data_in[25] 0.000226737
+2 *646:xi0[0] 9.65195e-05
+3 *189:13 0.00175205
+4 *189:12 0.00165553
+5 *189:10 0.0197605
+6 *189:9 0.0199872
+7 *189:10 *190:10 0.168189
+8 *189:10 *195:8 0.00157745
+9 *189:10 *197:8 7.03295e-05
+10 *189:10 *200:8 0.0352239
+11 *189:13 *190:13 0.000228777
+12 *189:13 *192:17 0.000675852
+13 *189:13 *203:11 0
+14 *175:11 *189:13 0.00566849
+15 *180:13 *189:13 0.00411093
+16 *182:16 *189:10 0.000713762
+17 *185:10 *189:10 0.000122159
+18 *186:10 *189:10 0.169631
+*RES
+1 la_data_in[25] *189:9 6.78571 
+2 *189:9 *189:10 1595.34 
+3 *189:10 *189:12 4.5 
+4 *189:12 *189:13 77.9911 
+5 *189:13 *646:xi0[0] 3.61367 
+*END
+
+*D_NET *190 0.486
+*CONN
+*P la_data_in[26] I
+*I *646:xi0[1] I *D R4_butter
+*CAP
+1 la_data_in[26] 0.000116984
+2 *646:xi0[1] 0.000166162
+3 *190:13 0.0109059
+4 *190:12 0.0107397
+5 *190:10 0.0211682
+6 *190:8 0.0212852
+7 *190:10 *195:8 0.000737045
+8 *190:10 *197:8 0.158098
+9 *190:10 *200:8 0.0320917
+10 *190:13 *646:xi1[0] 0.00021794
+11 *190:13 *192:17 0.0023045
+12 *190:13 *192:19 0.00596405
+13 *190:13 *196:11 0.03717
+14 *190:13 *198:25 0.000252981
+15 *190:13 *203:11 0
+16 *175:11 *190:13 3.57844e-05
+17 *179:11 *190:13 0.0149023
+18 *182:44 *190:13 0.00104933
+19 *186:13 *190:13 0.000377025
+20 *189:10 *190:10 0.168189
+21 *189:13 *190:13 0.000228777
+*RES
+1 la_data_in[26] *190:8 6.05357 
+2 *190:8 *190:10 1579.73 
+3 *190:10 *190:12 4.5 
+4 *190:12 *190:13 465.045 
+5 *190:13 *646:xi0[1] 3.7296 
+*END
+
+*D_NET *191 0.425666
+*CONN
+*P la_data_in[27] I
+*I *646:xi0[2] I *D R4_butter
+*CAP
+1 la_data_in[27] 0.00115316
+2 *646:xi0[2] 0.000408484
+3 *191:11 0.0115166
+4 *191:10 0.0111082
+5 *191:8 0.0763074
+6 *191:7 0.0774605
+7 *191:8 *198:8 0.067361
+8 *191:8 *211:8 0.0303581
+9 *191:8 *212:8 0
+10 *191:8 *271:16 0.00028016
+11 *191:11 *197:11 0.0681783
+12 *191:11 *209:15 0
+13 *155:11 *191:11 0.0650126
+14 *178:8 *191:8 0.00216919
+15 *178:11 *191:11 0.0143521
+*RES
+1 la_data_in[27] *191:7 24.4464 
+2 *191:7 *191:8 1569.88 
+3 *191:8 *191:10 4.5 
+4 *191:10 *191:11 835.705 
+5 *191:11 *646:xi0[2] 4.4064 
+*END
+
+*D_NET *192 0.505223
+*CONN
+*P la_data_in[28] I
+*I *646:xi0[3] I *D R4_butter
+*CAP
+1 la_data_in[28] 0.00117856
+2 *646:xi0[3] 0
+3 *192:19 0.0385095
+4 *192:17 0.0439724
+5 *192:8 0.0622452
+6 *192:7 0.0579608
+7 *192:8 *208:20 2.61572e-05
+8 *192:17 *646:xi1[0] 0.00143369
+9 *192:17 *196:11 0.00206601
+10 *192:17 *198:22 0.00918546
+11 *192:17 *198:25 0.000511957
+12 *192:19 *646:xi1[1] 0.000322558
+13 *192:19 *196:11 0.00672406
+14 *192:19 *198:25 0.0901837
+15 *646:xr2[1] *192:19 0.000322558
+16 *175:11 *192:17 0.00160523
+17 *178:8 *192:8 0.174337
+18 *179:11 *192:17 0.00243416
+19 *180:13 *192:17 0.000344409
+20 *182:27 *192:17 0.000265217
+21 *182:44 *192:19 0.000228533
+22 *187:21 *192:17 0.00187038
+23 *187:21 *192:19 0.00011188
+24 *187:25 *192:19 0.000439999
+25 *187:27 *192:19 0
+26 *189:13 *192:17 0.000675852
+27 *190:13 *192:17 0.0023045
+28 *190:13 *192:19 0.00596405
+*RES
+1 la_data_in[28] *192:7 24.1154 
+2 *192:7 *192:8 271.558 
+3 *192:8 *192:17 30.5541 
+4 *192:17 *192:19 188.332 
+5 *192:19 *646:xi0[3] 3.41 
+*END
+
+*D_NET *195 0.485442
+*CONN
+*P la_data_in[30] I
+*I *646:xi1[0] I *D R4_butter
+*CAP
+1 la_data_in[30] 0.000147414
+2 *646:xi1[0] 0.00678314
+3 *195:8 0.0322694
+4 *195:7 0.0256337
+5 *646:xi1[0] *646:xi2[0] 0.00796755
+6 *646:xi1[0] *196:11 0.000243793
+7 *646:xi1[0] *198:25 0.000623392
+8 *646:xi1[0] *201:11 0.000129533
+9 *646:xi1[0] *207:11 0.000180141
+10 *195:8 *200:8 0.160886
+11 *177:11 *646:xi1[0] 0.000194922
+12 *179:11 *646:xi1[0] 0.00021794
+13 *180:19 *646:xi1[0] 0.000129533
+14 *182:16 *195:8 0.170182
+15 *182:27 *646:xi1[0] 0.00107432
+16 *184:10 *195:8 0.0346542
+17 *185:10 *195:8 0.0373683
+18 *186:10 *195:8 0.00181464
+19 *186:19 *646:xi1[0] 0.000976225
+20 *189:10 *195:8 0.00157745
+21 *190:10 *195:8 0.000737045
+22 *190:13 *646:xi1[0] 0.00021794
+23 *192:17 *646:xi1[0] 0.00143369
+*RES
+1 la_data_in[30] *195:7 4.29393 
+2 *195:7 *195:8 265 
+3 *195:8 *646:xi1[0] 36.2201 
+*END
+
+*D_NET *196 0.475985
+*CONN
+*P la_data_in[31] I
+*I *646:xi1[1] I *D R4_butter
+*CAP
+1 la_data_in[31] 0.000541596
+2 *646:xi1[1] 0.000383312
+3 *196:11 0.00851984
+4 *196:10 0.00813653
+5 *196:8 0.0198545
+6 *196:7 0.0203961
+7 *196:8 *201:8 0.151238
+8 *196:8 *202:8 4.13496e-05
+9 *196:11 *198:25 0.000273738
+10 *196:11 *201:11 2.14474e-05
+11 *196:11 *203:11 0
+12 *646:xi1[0] *196:11 0.000243793
+13 *179:8 *196:8 0.159717
+14 *180:19 *196:11 0.0400561
+15 *186:13 *196:11 0.00332645
+16 *187:8 *196:8 0.0169524
+17 *190:13 *196:11 0.03717
+18 *192:17 *196:11 0.00206601
+19 *192:19 *646:xi1[1] 0.000322558
+20 *192:19 *196:11 0.00672406
+*RES
+1 la_data_in[31] *196:7 14.125 
+2 *196:7 *196:8 1500.05 
+3 *196:8 *196:10 4.5 
+4 *196:10 *196:11 532.741 
+5 *196:11 *646:xi1[1] 3.94267 
+*END
+
+*D_NET *197 0.56054
+*CONN
+*P la_data_in[32] I
+*I *646:xi1[2] I *D R4_butter
+*CAP
+1 la_data_in[32] 7.89263e-05
+2 *646:xi1[2] 0.000392437
+3 *197:11 0.0135657
+4 *197:10 0.0131733
+5 *197:8 0.0207531
+6 *197:7 0.020832
+7 *197:8 *200:8 0.0264016
+8 *197:8 *206:8 0.145155
+9 *155:11 *197:11 0.000508764
+10 *178:11 *197:11 0.016981
+11 *181:13 *197:11 0.076014
+12 *185:10 *197:8 0.00012258
+13 *185:13 *197:11 0.000214489
+14 *189:10 *197:8 7.03295e-05
+15 *190:10 *197:8 0.158098
+16 *191:11 *197:11 0.0681783
+*RES
+1 la_data_in[32] *197:7 5.625 
+2 *197:7 *197:8 1490.2 
+3 *197:8 *197:10 4.5 
+4 *197:10 *197:11 932.241 
+5 *197:11 *646:xi1[2] 4.33433 
+*END
+
+*D_NET *198 0.631223
+*CONN
+*P la_data_in[33] I
+*I *646:xi1[3] I *D R4_butter
+*CAP
+1 la_data_in[33] 0.00111183
+2 *646:xi1[3] 0
+3 *198:25 0.0219328
+4 *198:24 0.0219328
+5 *198:22 0.00270274
+6 *198:8 0.0591708
+7 *198:7 0.0575799
+8 *198:8 *208:8 0
+9 *198:8 *283:16 0.000358384
+10 *198:8 *307:11 0
+11 *198:22 *201:11 0.00188099
+12 *198:25 *646:xi2[0] 0.000652427
+13 *198:25 *646:xi3[1] 0.000322558
+14 *198:25 *201:11 0.00865318
+15 *646:xi1[0] *198:25 0.000623392
+16 *177:11 *198:25 0.000102335
+17 *178:8 *198:8 0.16536
+18 *179:11 *198:22 0.00124257
+19 *180:19 *198:22 0.00155146
+20 *180:19 *198:25 0.00885282
+21 *182:27 *198:22 0.0105727
+22 *182:44 *198:22 0.00025461
+23 *182:44 *198:25 0.00676823
+24 *182:45 *198:25 0.0912792
+25 *186:13 *198:22 0.000548306
+26 *187:27 *198:25 0
+27 *190:13 *198:25 0.000252981
+28 *191:8 *198:8 0.067361
+29 *192:17 *198:22 0.00918546
+30 *192:17 *198:25 0.000511957
+31 *192:19 *198:25 0.0901837
+32 *196:11 *198:25 0.000273738
+*RES
+1 la_data_in[33] *198:7 22.9011 
+2 *198:7 *198:8 257.505 
+3 *198:8 *198:22 48.9938 
+4 *198:22 *198:24 3.41 
+5 *198:24 *198:25 206.828 
+6 *198:25 *646:xi1[3] 3.41 
+*END
+
+*D_NET *200 0.44498
+*CONN
+*P la_data_in[35] I
+*I *646:xi2[0] I *D R4_butter
+*CAP
+1 la_data_in[35] 0.000296817
+2 *646:xi2[0] 0.011743
+3 *200:8 0.0639668
+4 *200:7 0.0525206
+5 *646:xi2[0] *207:11 0.00010508
+6 *200:8 *206:8 0.0204595
+7 *646:xi1[0] *646:xi2[0] 0.00796755
+8 *182:44 *646:xi2[0] 0
+9 *186:10 *200:8 0.0326655
+10 *189:10 *200:8 0.0352239
+11 *190:10 *200:8 0.0320917
+12 *195:8 *200:8 0.160886
+13 *197:8 *200:8 0.0264016
+14 *198:25 *646:xi2[0] 0.000652427
+*RES
+1 la_data_in[35] *200:7 5.11536 
+2 *200:7 *200:8 250.515 
+3 *200:8 *646:xi2[0] 49.485 
+*END
+
+*D_NET *201 0.461432
+*CONN
+*P la_data_in[36] I
+*I *646:xi2[1] I *D R4_butter
+*CAP
+1 la_data_in[36] 0.000573001
+2 *646:xi2[1] 0.000203015
+3 *201:11 0.00865322
+4 *201:10 0.00845021
+5 *201:8 0.0176018
+6 *201:7 0.0181748
+7 *201:8 *202:8 0.149534
+8 *201:11 *207:11 0.0497657
+9 *646:xi1[0] *201:11 0.000129533
+10 *177:11 *201:11 3.23864e-05
+11 *180:19 *201:11 0.0432225
+12 *186:13 *201:11 0.00329806
+13 *196:8 *201:8 0.151238
+14 *196:11 *201:11 2.14474e-05
+15 *198:22 *201:11 0.00188099
+16 *198:25 *201:11 0.00865318
+*RES
+1 la_data_in[36] *201:7 14.4286 
+2 *201:7 *201:8 1420.38 
+3 *201:8 *201:10 4.5 
+4 *201:10 *201:11 611.366 
+5 *201:11 *646:xi2[1] 3.7296 
+*END
+
+*D_NET *202 0.539453
+*CONN
+*P la_data_in[37] I
+*I *646:xi2[2] I *D R4_butter
+*CAP
+1 la_data_in[37] 0.000594298
+2 *646:xi2[2] 0.000322436
+3 *202:11 0.0135714
+4 *202:10 0.0132489
+5 *202:8 0.0176334
+6 *202:7 0.0182277
+7 *202:8 *203:8 0.148335
+8 *166:11 *202:11 0.0816121
+9 *176:8 *202:8 4.15531e-05
+10 *178:11 *202:11 0.0178146
+11 *179:8 *202:8 2.60984e-05
+12 *181:13 *202:11 0.0784503
+13 *196:8 *202:8 4.13496e-05
+14 *201:8 *202:8 0.149534
+*RES
+1 la_data_in[37] *202:7 14.7321 
+2 *202:7 *202:8 1410.11 
+3 *202:8 *202:10 4.5 
+4 *202:10 *202:11 1000.85 
+5 *202:11 *646:xi2[2] 4.1902 
+*END
+
+*D_NET *203 0.558811
+*CONN
+*P la_data_in[38] I
+*I *646:xi2[3] I *D R4_butter
+*CAP
+1 la_data_in[38] 0.000615596
+2 *646:xi2[3] 0.00023407
+3 *203:11 0.0462831
+4 *203:10 0.046049
+5 *203:8 0.0180565
+6 *203:7 0.0186721
+7 *203:8 *207:8 0.142766
+8 *166:11 *203:11 0.0974248
+9 *175:11 *203:11 0
+10 *178:11 *203:11 0.00173433
+11 *179:11 *203:11 0
+12 *180:13 *203:11 0
+13 *182:27 *203:11 0
+14 *182:44 *203:11 0
+15 *187:21 *203:11 0.00288535
+16 *187:27 *203:11 0.0357551
+17 *189:13 *203:11 0
+18 *190:13 *203:11 0
+19 *196:11 *203:11 0
+20 *202:8 *203:8 0.148335
+*RES
+1 la_data_in[38] *203:7 15.0357 
+2 *203:7 *203:8 1393.27 
+3 *203:8 *203:10 4.5 
+4 *203:10 *203:11 1389.12 
+5 *203:11 *646:xi2[3] 4.04607 
+*END
+
+*D_NET *206 0.305299
+*CONN
+*P la_data_in[40] I
+*I *646:xi3[0] I *D R4_butter
+*CAP
+1 la_data_in[40] 0.000103887
+2 *646:xi3[0] 0.000996897
+3 *206:11 0.0106737
+4 *206:10 0.00967679
+5 *206:8 0.0443632
+6 *206:7 0.0444671
+7 *206:11 *283:8 0.0050874
+8 *206:11 *388:8 0.0243012
+9 *184:10 *206:8 0
+10 *185:10 *206:8 1.42064e-05
+11 *197:8 *206:8 0.145155
+12 *200:8 *206:8 0.0204595
+*RES
+1 la_data_in[40] *206:7 5.92857 
+2 *206:7 *206:8 1371.09 
+3 *206:8 *206:10 4.5 
+4 *206:10 *206:11 310.223 
+5 *206:11 *646:xi3[0] 5.7036 
+*END
+
+*D_NET *207 0.367701
+*CONN
+*P la_data_in[41] I
+*I *646:xi3[1] I *D R4_butter
+*CAP
+1 la_data_in[41] 0.000643158
+2 *646:xi3[1] 0.000286683
+3 *207:11 0.0103099
+4 *207:10 0.0100232
+5 *207:8 0.0417702
+6 *207:7 0.0424134
+7 *207:8 *388:11 0
+8 *646:xi1[0] *207:11 0.000180141
+9 *646:xi2[0] *207:11 0.00010508
+10 *177:11 *207:11 0.0560077
+11 *182:27 *207:11 0.00211778
+12 *182:44 *207:11 0.00161945
+13 *182:45 *207:11 0.00937063
+14 *198:25 *646:xi3[1] 0.000322558
+15 *201:11 *207:11 0.0497657
+16 *203:8 *207:8 0.142766
+*RES
+1 la_data_in[41] *207:7 15.3393 
+2 *207:7 *207:8 1340.7 
+3 *207:8 *207:10 4.5 
+4 *207:10 *207:11 686.955 
+5 *207:11 *646:xi3[1] 3.94267 
+*END
+
+*D_NET *208 0.623055
+*CONN
+*P la_data_in[42] I
+*I *646:xi3[2] I *D R4_butter
+*CAP
+1 la_data_in[42] 0.000868157
+2 *646:xi3[2] 0.000689133
+3 *208:21 0.0195182
+4 *208:20 0.020302
+5 *208:8 0.0547922
+6 *208:7 0.0541875
+7 *208:8 *209:8 0.0151825
+8 *208:8 *212:8 0.000712323
+9 *208:8 *213:8 0.000889436
+10 *208:8 *271:8 0.0302516
+11 *208:8 *283:16 0
+12 *208:8 *283:17 0.0326293
+13 *208:8 *304:11 0.0297278
+14 *208:8 *305:11 0.0258423
+15 *208:8 *306:11 0.0200261
+16 *208:8 *307:11 0.146123
+17 *208:20 *646:xr0[0] 0.000624895
+18 *208:20 *283:16 0
+19 *208:21 *305:8 0.0615364
+20 *208:21 *306:8 0.0869065
+21 *208:21 *307:8 0.0215969
+22 *177:11 *208:20 0.000622838
+23 *178:8 *208:20 0
+24 *192:8 *208:20 2.61572e-05
+25 *198:8 *208:8 0
+*RES
+1 la_data_in[42] *208:7 18.0439 
+2 *208:7 *208:8 232.318 
+3 *208:8 *208:20 20.9081 
+4 *208:20 *208:21 1065.05 
+5 *208:21 *646:xi3[2] 5.2712 
+*END
+
+*D_NET *209 0.47651
+*CONN
+*P la_data_in[43] I
+*I *646:xi3[3] I *D R4_butter
+*CAP
+1 la_data_in[43] 0.000987126
+2 *646:xi3[3] 0.000573693
+3 *209:15 0.0507495
+4 *209:14 0.051032
+5 *209:8 0.0405715
+6 *209:7 0.0407024
+7 *209:8 *213:8 0.00674059
+8 *209:8 *306:11 0.138058
+9 *209:14 *271:16 0.000148556
+10 *209:14 *306:11 0.00036661
+11 *209:15 *306:8 0.0937754
+12 *209:15 *307:8 0.037623
+13 *155:11 *209:15 0
+14 *176:11 *209:15 0
+15 *184:13 *209:15 0
+16 *185:13 *209:15 0
+17 *191:11 *209:15 0
+18 *208:8 *209:8 0.0151825
+*RES
+1 la_data_in[43] *209:7 20.8036 
+2 *209:7 *209:8 1304.96 
+3 *209:8 *209:14 21.2679 
+4 *209:14 *209:15 1460.15 
+5 *209:15 *646:xi3[3] 5.12707 
+*END
+
+*D_NET *211 0.332326
+*CONN
+*P la_data_in[45] I
+*I *646:c1 I *D R4_butter
+*CAP
+1 la_data_in[45] 0.00122005
+2 *646:c1 0.00063248
+3 *211:11 0.0523719
+4 *211:10 0.0517395
+5 *211:8 0.0585866
+6 *211:7 0.0598067
+7 *211:11 *212:11 0.0623719
+8 *178:8 *211:8 0.0152389
+9 *191:8 *211:8 0.0303581
+*RES
+1 la_data_in[45] *211:7 24.75 
+2 *211:7 *211:8 1231.45 
+3 *211:8 *211:10 4.5 
+4 *211:10 *211:11 1300.47 
+5 *211:11 *646:c1 5.34327 
+*END
+
+*D_NET *212 0.342373
+*CONN
+*P la_data_in[46] I
+*I *646:c2 I *D R4_butter
+*CAP
+1 la_data_in[46] 0.00102941
+2 *646:c2 0.000676663
+3 *212:11 0.0218473
+4 *212:10 0.0211706
+5 *212:8 0.0404431
+6 *212:7 0.0414725
+7 *212:8 *213:8 0.132015
+8 *212:11 *213:11 0.0206347
+9 *191:8 *212:8 0
+10 *208:8 *212:8 0.000712323
+11 *211:11 *212:11 0.0623719
+*RES
+1 la_data_in[46] *212:7 21.4107 
+2 *212:7 *212:8 1247.88 
+3 *212:8 *212:10 4.5 
+4 *212:10 *212:11 780.455 
+5 *212:11 *646:c2 5.41533 
+*END
+
+*D_NET *213 0.270037
+*CONN
+*P la_data_in[47] I
+*I *646:c3 I *D R4_butter
+*CAP
+1 la_data_in[47] 0.0010082
+2 *646:c3 0.000764402
+3 *213:11 0.00921263
+4 *213:10 0.00844822
+5 *213:8 0.0311897
+6 *213:7 0.0321979
+7 *213:8 *260:8 0
+8 *213:8 *271:8 0
+9 *213:8 *283:17 0.000498452
+10 *213:8 *304:11 0.000439483
+11 *213:8 *305:11 0.000623771
+12 *213:8 *306:11 0.0253745
+13 *208:8 *213:8 0.000889436
+14 *209:8 *213:8 0.00674059
+15 *212:8 *213:8 0.132015
+16 *212:11 *213:11 0.0206347
+*RES
+1 la_data_in[47] *213:7 21.1071 
+2 *213:7 *213:8 1264.3 
+3 *213:8 *213:10 4.5 
+4 *213:10 *213:11 257.402 
+5 *213:11 *646:c3 5.4874 
+*END
+
+*D_NET *260 0.487065
+*CONN
+*P la_data_in[8] I
+*I *646:xr0[0] I *D R4_butter
+*CAP
+1 la_data_in[8] 0.000693344
+2 *646:xr0[0] 0.0012379
+3 *260:8 0.02515
+4 *260:7 0.0246054
+5 *646:xr0[0] *271:16 0
+6 *646:xr0[0] *283:16 0
+7 *260:8 *271:8 0.000282246
+8 *260:8 *294:11 0.00173892
+9 *260:8 *307:11 0.0396097
+10 *260:8 *388:11 0.196385
+11 *260:8 *399:11 0.194737
+12 *177:11 *646:xr0[0] 0.00118052
+13 *182:27 *646:xr0[0] 0.000819838
+14 *208:20 *646:xr0[0] 0.000624895
+15 *213:8 *260:8 0
+*RES
+1 la_data_in[8] *260:7 18.6786 
+2 *260:7 *260:8 1861.89 
+3 *260:8 *646:xr0[0] 32.148 
+*END
+
+*D_NET *271 0.564165
+*CONN
+*P la_data_in[9] I
+*I *646:xr0[1] I *D R4_butter
+*CAP
+1 la_data_in[9] 0.00073538
+2 *646:xr0[1] 0.000897598
+3 *271:17 0.00669142
+4 *271:16 0.00703773
+5 *271:8 0.0248878
+6 *271:7 0.0243792
+7 *271:8 *283:17 0.192744
+8 *271:8 *294:11 0.00109768
+9 *271:8 *307:11 0.0091366
+10 *271:8 *399:11 0.194437
+11 *271:16 *283:16 9.97391e-05
+12 *271:16 *305:11 0
+13 *271:16 *306:11 0
+14 *271:17 *283:8 0.00740436
+15 *271:17 *304:8 0.0302431
+16 *271:17 *399:8 0.0334104
+17 *646:xr0[0] *271:16 0
+18 *191:8 *271:16 0.00028016
+19 *208:8 *271:8 0.0302516
+20 *209:14 *271:16 0.000148556
+21 *213:8 *271:8 0
+22 *260:8 *271:8 0.000282246
+*RES
+1 la_data_in[9] *271:7 19.2857 
+2 *271:7 *271:8 1843 
+3 *271:8 *271:16 35.3571 
+4 *271:16 *271:17 409.491 
+5 *271:17 *646:xr0[1] 5.4874 
+*END
+
+*D_NET *283 0.675649
+*CONN
+*P la_data_out[10] O
+*I *646:Xro[2] O *D R4_butter
+*CAP
+1 la_data_out[10] 0.000769628
+2 *646:Xro[2] 0.000766137
+3 *283:17 0.0244212
+4 *283:16 0.0250272
+5 *283:8 0.0412157
+6 *283:7 0.0406062
+7 *283:8 *294:8 0.0932671
+8 *283:8 *304:8 0.00751279
+9 *283:8 *388:8 0.00622474
+10 *283:16 *294:11 0
+11 *283:16 *307:11 0
+12 *283:17 *294:11 0.000842112
+13 *283:17 *304:11 0.187837
+14 *283:17 *307:11 0.00794382
+15 *283:17 *399:11 7.15503e-05
+16 *646:xr0[0] *283:16 0
+17 *178:8 *283:16 0.000323115
+18 *198:8 *283:16 0.000358384
+19 *206:11 *283:8 0.0050874
+20 *208:8 *283:16 0
+21 *208:8 *283:17 0.0326293
+22 *208:20 *283:16 0
+23 *213:8 *283:17 0.000498452
+24 *271:8 *283:17 0.192744
+25 *271:16 *283:16 9.97391e-05
+26 *271:17 *283:8 0.00740436
+*RES
+1 *646:Xro[2] *283:7 5.45137 
+2 *283:7 *283:8 194.577 
+3 *283:8 *283:16 18.1333 
+4 *283:16 *283:17 1823.29 
+5 *283:17 la_data_out[10] 19.5893 
+*END
+
+*D_NET *294 0.71608
+*CONN
+*P la_data_out[11] O
+*I *646:Xro[3] O *D R4_butter
+*CAP
+1 la_data_out[11] 0.000670937
+2 *646:Xro[3] 0.000607241
+3 *294:11 0.0730758
+4 *294:10 0.0724048
+5 *294:8 0.0333285
+6 *294:7 0.0339357
+7 *294:8 *305:8 0.0137478
+8 *294:8 *307:8 0.126287
+9 *294:8 *399:8 0.0145998
+10 *294:11 *304:11 0.000289791
+11 *294:11 *305:11 0.000289791
+12 *294:11 *307:11 0.192318
+13 *294:11 *388:11 0.056163
+14 *294:11 *399:11 0.00141648
+15 *187:8 *294:11 0
+16 *260:8 *294:11 0.00173892
+17 *271:8 *294:11 0.00109768
+18 *283:8 *294:8 0.0932671
+19 *283:16 *294:11 0
+20 *283:17 *294:11 0.000842112
+*RES
+1 *646:Xro[3] *294:7 5.30723 
+2 *294:7 *294:8 263.717 
+3 *294:8 *294:10 3.41 
+4 *294:10 *294:11 319.843 
+5 *294:11 la_data_out[11] 16.8296 
+*END
+
+*D_NET *304 0.538299
+*CONN
+*P la_data_out[13] O
+*I *646:Xio[0] O *D R4_butter
+*CAP
+1 la_data_out[13] 0.000819066
+2 *646:Xio[0] 0.000932027
+3 *304:11 0.0238397
+4 *304:10 0.0230206
+5 *304:8 0.00535647
+6 *304:7 0.0062885
+7 *304:8 *388:8 0.0273507
+8 *304:8 *399:8 0.000148303
+9 *304:11 *305:11 0.187783
+10 *304:11 *307:11 0.00615594
+11 *304:11 *388:11 8.6608e-06
+12 *304:11 *399:11 0.00054618
+13 *208:8 *304:11 0.0297278
+14 *213:8 *304:11 0.000439483
+15 *271:17 *304:8 0.0302431
+16 *283:8 *304:8 0.00751279
+17 *283:17 *304:11 0.187837
+18 *294:11 *304:11 0.000289791
+*RES
+1 *646:Xio[0] *304:7 5.55947 
+2 *304:7 *304:8 373.973 
+3 *304:8 *304:10 4.5 
+4 *304:10 *304:11 1792.48 
+5 *304:11 la_data_out[13] 19.8929 
+*END
+
+*D_NET *305 0.608868
+*CONN
+*P la_data_out[14] O
+*I *646:Xio[1] O *D R4_butter
+*CAP
+1 la_data_out[14] 0.00084658
+2 *646:Xio[1] 0.000787286
+3 *305:11 0.0234798
+4 *305:10 0.0226332
+5 *305:8 0.0102053
+6 *305:7 0.0109926
+7 *305:8 *306:8 0.000344792
+8 *305:8 *399:8 0.0590259
+9 *305:11 *306:11 0.186006
+10 *305:11 *307:11 0.00472267
+11 *208:8 *305:11 0.0258423
+12 *208:21 *305:8 0.0615364
+13 *213:8 *305:11 0.000623771
+14 *271:16 *305:11 0
+15 *294:8 *305:8 0.0137478
+16 *294:11 *305:11 0.000289791
+17 *304:11 *305:11 0.187783
+*RES
+1 *646:Xio[1] *305:7 5.34327 
+2 *305:7 *305:8 762.241 
+3 *305:8 *305:10 4.5 
+4 *305:10 *305:11 1775.64 
+5 *305:11 la_data_out[14] 20.1964 
+*END
+
+*D_NET *306 0.658114
+*CONN
+*P la_data_out[15] O
+*I *646:Xio[2] O *D R4_butter
+*CAP
+1 la_data_out[15] 0.00086765
+2 *646:Xio[2] 0.00064495
+3 *306:11 0.0245831
+4 *306:10 0.0237155
+5 *306:8 0.0157502
+6 *306:7 0.0163952
+7 *306:8 *307:8 0.0206991
+8 *306:11 *307:11 0.00460051
+9 *184:13 *306:8 0
+10 *208:8 *306:11 0.0200261
+11 *208:21 *306:8 0.0869065
+12 *209:8 *306:11 0.138058
+13 *209:14 *306:11 0.00036661
+14 *209:15 *306:8 0.0937754
+15 *213:8 *306:11 0.0253745
+16 *271:16 *306:11 0
+17 *305:8 *306:8 0.000344792
+18 *305:11 *306:11 0.186006
+*RES
+1 *646:Xio[2] *306:7 5.19913 
+2 *306:7 *306:8 1150.51 
+3 *306:8 *306:10 4.5 
+4 *306:10 *306:11 1758.8 
+5 *306:11 la_data_out[15] 20.5 
+*END
+
+*D_NET *307 0.860003
+*CONN
+*P la_data_out[16] O
+*I *646:Xio[3] O *D R4_butter
+*CAP
+1 la_data_out[16] 0.000741821
+2 *646:Xio[3] 0.000538934
+3 *307:11 0.0432434
+4 *307:10 0.0425016
+5 *307:8 0.0564833
+6 *307:7 0.0570222
+7 *307:11 *399:11 0.0426559
+8 *178:8 *307:11 0
+9 *178:11 *307:8 0
+10 *187:21 *307:8 0
+11 *187:27 *307:8 0
+12 *198:8 *307:11 0
+13 *208:8 *307:11 0.146123
+14 *208:21 *307:8 0.0215969
+15 *209:15 *307:8 0.037623
+16 *260:8 *307:11 0.0396097
+17 *271:8 *307:11 0.0091366
+18 *283:16 *307:11 0
+19 *283:17 *307:11 0.00794382
+20 *294:8 *307:8 0.126287
+21 *294:11 *307:11 0.192318
+22 *304:11 *307:11 0.00615594
+23 *305:11 *307:11 0.00472267
+24 *306:8 *307:8 0.0206991
+25 *306:11 *307:11 0.00460051
+*RES
+1 *646:Xio[3] *307:7 5.1631 
+2 *307:7 *307:8 270.429 
+3 *307:8 *307:10 3.41 
+4 *307:10 *307:11 305.862 
+5 *307:11 la_data_out[16] 17.4368 
+*END
+
+*D_NET *388 0.442538
+*CONN
+*P la_data_out[8] O
+*I *646:Xro[0] O *D R4_butter
+*CAP
+1 la_data_out[8] 0.000678922
+2 *646:Xro[0] 0.00100247
+3 *388:11 0.0597607
+4 *388:10 0.0590818
+5 *388:8 0.00489778
+6 *388:7 0.00590024
+7 *388:8 *399:8 2.3942e-05
+8 *388:11 *399:11 0.00075832
+9 *206:11 *388:8 0.0243012
+10 *207:8 *388:11 0
+11 *260:8 *388:11 0.196385
+12 *283:8 *388:8 0.00622474
+13 *294:11 *388:11 0.056163
+14 *304:8 *388:8 0.0273507
+15 *304:11 *388:11 8.6608e-06
+*RES
+1 *646:Xro[0] *388:7 5.63153 
+2 *388:7 *388:8 336.634 
+3 *388:8 *388:10 4.5 
+4 *388:10 *388:11 1872.16 
+5 *388:11 la_data_out[8] 18.375 
+*END
+
+*D_NET *399 0.621829
+*CONN
+*P la_data_out[9] O
+*I *646:Xro[1] O *D R4_butter
+*CAP
+1 la_data_out[9] 0.000721062
+2 *646:Xro[1] 0.000866688
+3 *399:11 0.0244667
+4 *399:10 0.0237457
+5 *399:8 0.0146652
+6 *399:7 0.0155319
+7 *260:8 *399:11 0.194737
+8 *271:8 *399:11 0.194437
+9 *271:17 *399:8 0.0334104
+10 *283:17 *399:11 7.15503e-05
+11 *294:8 *399:8 0.0145998
+12 *294:11 *399:11 0.00141648
+13 *304:8 *399:8 0.000148303
+14 *304:11 *399:11 0.00054618
+15 *305:8 *399:8 0.0590259
+16 *307:11 *399:11 0.0426559
+17 *388:8 *399:8 2.3942e-05
+18 *388:11 *399:11 0.00075832
+*RES
+1 *646:Xro[1] *399:7 5.41533 
+2 *399:7 *399:8 724.598 
+3 *399:8 *399:10 4.5 
+4 *399:10 *399:11 1855.32 
+5 *399:11 la_data_out[9] 18.9821 
+*END
