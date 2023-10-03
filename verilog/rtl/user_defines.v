@@ -20,7 +20,7 @@
 `define __USER_DEFINES_H
 
 // deliberately erroneous placeholder value; user required to config GPIO's to other
-`define GPIO_MODE_INVALID                  13'hXXXX
+`define GPIO_MODE_INVALID                  13'h0a05
 
 // Authoritive source of these MODE defs is: caravel/verilog/rtl/user_defines.v
 // Useful GPIO mode values.  These match the names used in defs.h.
@@ -52,11 +52,11 @@
 // up in a state that can be used immediately without depending on
 // the management SoC to run a startup program to configure the GPIOs.
 
-`define USER_CONFIG_GPIO_5_INIT  `GPIO_MODE_MGMT_STD_INPUT_NOPULL
-`define USER_CONFIG_GPIO_6_INIT  `GPIO_MODE_MGMT_STD_INPUT_NOPULL
-`define USER_CONFIG_GPIO_7_INIT  `GPIO_MODE_MGMT_STD_INPUT_NOPULL
+`define USER_CONFIG_GPIO_5_INIT  `GPIO_MODE_INVALID
+`define USER_CONFIG_GPIO_6_INIT  `GPIO_MODE_INVALID
+`define USER_CONFIG_GPIO_7_INIT  `GPIO_MODE_INVALID
 `define USER_CONFIG_GPIO_8_INIT  `GPIO_MODE_INVALID
-`define USER_CONFIG_GPIO_9_INIT  `GPIO_MODE_INVALIDGPIO_MODE_MGMT_STD_INPUT_NOPULL
+`define USER_CONFIG_GPIO_9_INIT  `GPIO_MODE_INVALID
 `define USER_CONFIG_GPIO_10_INIT `GPIO_MODE_INVALID
 `define USER_CONFIG_GPIO_11_INIT `GPIO_MODE_INVALID
 `define USER_CONFIG_GPIO_12_INIT `GPIO_MODE_INVALID
