@@ -1,6 +1,6 @@
 ###############################################################################
 # Created by write_sdc
-# Wed Oct 18 09:11:10 2023
+# Tue Oct 24 15:28:09 2023
 ###############################################################################
 current_design R4_butter
 ###############################################################################
@@ -13,6 +13,14 @@ set_clock_latency -source -max 6.0000 [get_clocks {clk}]
 ###############################################################################
 # Environment
 ###############################################################################
+set_input_transition -min 0.0500 [get_ports {la_oenb[7]}]
+set_input_transition -max 0.4400 [get_ports {la_oenb[7]}]
+set_input_transition -min 0.0500 [get_ports {la_oenb[6]}]
+set_input_transition -max 0.4400 [get_ports {la_oenb[6]}]
+set_input_transition -min 0.0500 [get_ports {la_oenb[5]}]
+set_input_transition -max 0.4400 [get_ports {la_oenb[5]}]
+set_input_transition -min 0.0500 [get_ports {la_oenb[4]}]
+set_input_transition -max 0.4400 [get_ports {la_oenb[4]}]
 set_input_transition -min 0.0500 [get_ports {la_oenb[3]}]
 set_input_transition -max 0.4400 [get_ports {la_oenb[3]}]
 set_input_transition -min 0.0500 [get_ports {la_oenb[2]}]

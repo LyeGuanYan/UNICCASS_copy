@@ -100,7 +100,7 @@ MACRO R4_butter
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 22.630 0.000 22.910 4.000 ;
+        RECT 12.050 0.000 12.330 4.000 ;
     END
   END la_oenb[0]
   PIN la_oenb[1]
@@ -108,7 +108,7 @@ MACRO R4_butter
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 68.170 0.000 68.450 4.000 ;
+        RECT 34.590 0.000 34.870 4.000 ;
     END
   END la_oenb[1]
   PIN la_oenb[2]
@@ -116,7 +116,7 @@ MACRO R4_butter
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 113.710 0.000 113.990 4.000 ;
+        RECT 57.130 0.000 57.410 4.000 ;
     END
   END la_oenb[2]
   PIN la_oenb[3]
@@ -124,9 +124,41 @@ MACRO R4_butter
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 159.250 0.000 159.530 4.000 ;
+        RECT 79.670 0.000 79.950 4.000 ;
     END
   END la_oenb[3]
+  PIN la_oenb[4]
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 102.210 0.000 102.490 4.000 ;
+    END
+  END la_oenb[4]
+  PIN la_oenb[5]
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 124.750 0.000 125.030 4.000 ;
+    END
+  END la_oenb[5]
+  PIN la_oenb[6]
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 147.290 0.000 147.570 4.000 ;
+    END
+  END la_oenb[6]
+  PIN la_oenb[7]
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 169.830 0.000 170.110 4.000 ;
+    END
+  END la_oenb[7]
   PIN vccd1
     DIRECTION INOUT ;
     USE POWER ;
@@ -407,14 +439,18 @@ MACRO R4_butter
       LAYER li1 ;
         RECT 5.520 10.795 176.180 182.325 ;
       LAYER met1 ;
-        RECT 4.670 10.640 177.950 182.480 ;
+        RECT 4.670 10.640 177.490 182.480 ;
       LAYER met2 ;
-        RECT 4.690 4.280 177.920 189.565 ;
-        RECT 4.690 3.555 22.350 4.280 ;
-        RECT 23.190 3.555 67.890 4.280 ;
-        RECT 68.730 3.555 113.430 4.280 ;
-        RECT 114.270 3.555 158.970 4.280 ;
-        RECT 159.810 3.555 177.920 4.280 ;
+        RECT 4.690 4.280 177.470 189.565 ;
+        RECT 4.690 3.555 11.770 4.280 ;
+        RECT 12.610 3.555 34.310 4.280 ;
+        RECT 35.150 3.555 56.850 4.280 ;
+        RECT 57.690 3.555 79.390 4.280 ;
+        RECT 80.230 3.555 101.930 4.280 ;
+        RECT 102.770 3.555 124.470 4.280 ;
+        RECT 125.310 3.555 147.010 4.280 ;
+        RECT 147.850 3.555 169.550 4.280 ;
+        RECT 170.390 3.555 177.470 4.280 ;
       LAYER met3 ;
         RECT 4.000 188.680 177.600 189.545 ;
         RECT 4.000 185.320 178.000 188.680 ;

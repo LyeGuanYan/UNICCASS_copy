@@ -1,23 +1,31 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1697620284
+timestamp 1698161309
 << obsli1 >>
 rect 1104 2159 35236 36465
 << obsm1 >>
-rect 934 2128 35590 36496
+rect 934 2128 35498 36496
 << metal2 >>
-rect 4526 0 4582 800
-rect 13634 0 13690 800
-rect 22742 0 22798 800
-rect 31850 0 31906 800
+rect 2410 0 2466 800
+rect 6918 0 6974 800
+rect 11426 0 11482 800
+rect 15934 0 15990 800
+rect 20442 0 20498 800
+rect 24950 0 25006 800
+rect 29458 0 29514 800
+rect 33966 0 34022 800
 << obsm2 >>
-rect 938 856 35584 37913
-rect 938 711 4470 856
-rect 4638 711 13578 856
-rect 13746 711 22686 856
-rect 22854 711 31794 856
-rect 31962 711 35584 856
+rect 938 856 35494 37913
+rect 938 711 2354 856
+rect 2522 711 6862 856
+rect 7030 711 11370 856
+rect 11538 711 15878 856
+rect 16046 711 20386 856
+rect 20554 711 24894 856
+rect 25062 711 29402 856
+rect 29570 711 33910 856
+rect 34078 711 35494 856
 << metal3 >>
 rect 35600 37816 36400 37936
 rect 35600 36864 36400 36984
@@ -173,90 +181,98 @@ rlabel metal3 s 0 19320 800 19440 6 c2
 port 10 nsew signal input
 rlabel metal3 s 0 6400 800 6520 6 c3
 port 11 nsew signal input
-rlabel metal2 s 4526 0 4582 800 6 la_oenb[0]
+rlabel metal2 s 2410 0 2466 800 6 la_oenb[0]
 port 12 nsew signal output
-rlabel metal2 s 13634 0 13690 800 6 la_oenb[1]
+rlabel metal2 s 6918 0 6974 800 6 la_oenb[1]
 port 13 nsew signal output
-rlabel metal2 s 22742 0 22798 800 6 la_oenb[2]
+rlabel metal2 s 11426 0 11482 800 6 la_oenb[2]
 port 14 nsew signal output
-rlabel metal2 s 31850 0 31906 800 6 la_oenb[3]
+rlabel metal2 s 15934 0 15990 800 6 la_oenb[3]
 port 15 nsew signal output
+rlabel metal2 s 20442 0 20498 800 6 la_oenb[4]
+port 16 nsew signal output
+rlabel metal2 s 24950 0 25006 800 6 la_oenb[5]
+port 17 nsew signal output
+rlabel metal2 s 29458 0 29514 800 6 la_oenb[6]
+port 18 nsew signal output
+rlabel metal2 s 33966 0 34022 800 6 la_oenb[7]
+port 19 nsew signal output
 rlabel metal4 s 4208 2128 4528 36496 6 vccd1
-port 16 nsew power bidirectional
+port 20 nsew power bidirectional
 rlabel metal4 s 34928 2128 35248 36496 6 vccd1
-port 16 nsew power bidirectional
+port 20 nsew power bidirectional
 rlabel metal4 s 19568 2128 19888 36496 6 vssd1
-port 17 nsew ground bidirectional
+port 21 nsew ground bidirectional
 rlabel metal3 s 35600 1640 36400 1760 6 xi0[0]
-port 18 nsew signal input
-rlabel metal3 s 35600 11160 36400 11280 6 xi0[1]
-port 19 nsew signal input
-rlabel metal3 s 35600 20680 36400 20800 6 xi0[2]
-port 20 nsew signal input
-rlabel metal3 s 35600 30200 36400 30320 6 xi0[3]
-port 21 nsew signal input
-rlabel metal3 s 35600 3544 36400 3664 6 xi1[0]
 port 22 nsew signal input
-rlabel metal3 s 35600 13064 36400 13184 6 xi1[1]
+rlabel metal3 s 35600 11160 36400 11280 6 xi0[1]
 port 23 nsew signal input
-rlabel metal3 s 35600 22584 36400 22704 6 xi1[2]
+rlabel metal3 s 35600 20680 36400 20800 6 xi0[2]
 port 24 nsew signal input
-rlabel metal3 s 35600 32104 36400 32224 6 xi1[3]
+rlabel metal3 s 35600 30200 36400 30320 6 xi0[3]
 port 25 nsew signal input
-rlabel metal3 s 35600 5448 36400 5568 6 xi2[0]
+rlabel metal3 s 35600 3544 36400 3664 6 xi1[0]
 port 26 nsew signal input
-rlabel metal3 s 35600 14968 36400 15088 6 xi2[1]
+rlabel metal3 s 35600 13064 36400 13184 6 xi1[1]
 port 27 nsew signal input
-rlabel metal3 s 35600 24488 36400 24608 6 xi2[2]
+rlabel metal3 s 35600 22584 36400 22704 6 xi1[2]
 port 28 nsew signal input
-rlabel metal3 s 35600 34008 36400 34128 6 xi2[3]
+rlabel metal3 s 35600 32104 36400 32224 6 xi1[3]
 port 29 nsew signal input
-rlabel metal3 s 35600 7352 36400 7472 6 xi3[0]
+rlabel metal3 s 35600 5448 36400 5568 6 xi2[0]
 port 30 nsew signal input
-rlabel metal3 s 35600 16872 36400 16992 6 xi3[1]
+rlabel metal3 s 35600 14968 36400 15088 6 xi2[1]
 port 31 nsew signal input
-rlabel metal3 s 35600 26392 36400 26512 6 xi3[2]
+rlabel metal3 s 35600 24488 36400 24608 6 xi2[2]
 port 32 nsew signal input
-rlabel metal3 s 35600 35912 36400 36032 6 xi3[3]
+rlabel metal3 s 35600 34008 36400 34128 6 xi2[3]
 port 33 nsew signal input
-rlabel metal3 s 35600 688 36400 808 6 xr0[0]
+rlabel metal3 s 35600 7352 36400 7472 6 xi3[0]
 port 34 nsew signal input
-rlabel metal3 s 35600 10208 36400 10328 6 xr0[1]
+rlabel metal3 s 35600 16872 36400 16992 6 xi3[1]
 port 35 nsew signal input
-rlabel metal3 s 35600 19728 36400 19848 6 xr0[2]
+rlabel metal3 s 35600 26392 36400 26512 6 xi3[2]
 port 36 nsew signal input
-rlabel metal3 s 35600 29248 36400 29368 6 xr0[3]
+rlabel metal3 s 35600 35912 36400 36032 6 xi3[3]
 port 37 nsew signal input
-rlabel metal3 s 35600 2592 36400 2712 6 xr1[0]
+rlabel metal3 s 35600 688 36400 808 6 xr0[0]
 port 38 nsew signal input
-rlabel metal3 s 35600 12112 36400 12232 6 xr1[1]
+rlabel metal3 s 35600 10208 36400 10328 6 xr0[1]
 port 39 nsew signal input
-rlabel metal3 s 35600 21632 36400 21752 6 xr1[2]
+rlabel metal3 s 35600 19728 36400 19848 6 xr0[2]
 port 40 nsew signal input
-rlabel metal3 s 35600 31152 36400 31272 6 xr1[3]
+rlabel metal3 s 35600 29248 36400 29368 6 xr0[3]
 port 41 nsew signal input
-rlabel metal3 s 35600 4496 36400 4616 6 xr2[0]
+rlabel metal3 s 35600 2592 36400 2712 6 xr1[0]
 port 42 nsew signal input
-rlabel metal3 s 35600 14016 36400 14136 6 xr2[1]
+rlabel metal3 s 35600 12112 36400 12232 6 xr1[1]
 port 43 nsew signal input
-rlabel metal3 s 35600 23536 36400 23656 6 xr2[2]
+rlabel metal3 s 35600 21632 36400 21752 6 xr1[2]
 port 44 nsew signal input
-rlabel metal3 s 35600 33056 36400 33176 6 xr2[3]
+rlabel metal3 s 35600 31152 36400 31272 6 xr1[3]
 port 45 nsew signal input
-rlabel metal3 s 35600 6400 36400 6520 6 xr3[0]
+rlabel metal3 s 35600 4496 36400 4616 6 xr2[0]
 port 46 nsew signal input
-rlabel metal3 s 35600 15920 36400 16040 6 xr3[1]
+rlabel metal3 s 35600 14016 36400 14136 6 xr2[1]
 port 47 nsew signal input
-rlabel metal3 s 35600 25440 36400 25560 6 xr3[2]
+rlabel metal3 s 35600 23536 36400 23656 6 xr2[2]
 port 48 nsew signal input
-rlabel metal3 s 35600 34960 36400 35080 6 xr3[3]
+rlabel metal3 s 35600 33056 36400 33176 6 xr2[3]
 port 49 nsew signal input
+rlabel metal3 s 35600 6400 36400 6520 6 xr3[0]
+port 50 nsew signal input
+rlabel metal3 s 35600 15920 36400 16040 6 xr3[1]
+port 51 nsew signal input
+rlabel metal3 s 35600 25440 36400 25560 6 xr3[2]
+port 52 nsew signal input
+rlabel metal3 s 35600 34960 36400 35080 6 xr3[3]
+port 53 nsew signal input
 << properties >>
 string FIXED_BBOX 0 0 36400 38800
 string LEFclass BLOCK
 string LEFview TRUE
-string GDS_END 445408
-string GDS_FILE /home/guanyanlye/unic-cass/caravel_tutorial/caravel_uniccas_example/openlane/R4_butter/runs/23_10_18_17_10/results/signoff/R4_butter.magic.gds
+string GDS_END 449276
+string GDS_FILE /home/guanyanlye/unic-cass/caravel_tutorial/caravel_uniccas_example/openlane/R4_butter/runs/23_10_24_23_27/results/signoff/R4_butter.magic.gds
 string GDS_START 56748
 << end >>
 

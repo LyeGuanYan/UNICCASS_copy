@@ -10,12 +10,12 @@ module R4_butter (
 
 input [3:0] xr0,xi0, xr1,xi1, xr2,xi2, xr3,xi3,
 output [3:0] Xro,Xio,
-output [3:0] la_oenb,
+output [7:0] la_oenb,
 input c1,c2,c3 );
 
 wire [3:0] m0,m1,m2,m3,s0,s1,s2,s3;
 wire m4;
-assign la_oenb = 4'b0000;
+assign la_oenb = 8'b00000000;
 addsub a0(.A(m0), .B(xr1), .ADD_SUB(c2), .SUM(s0)); 
 addsub a1(.A(m2), .B(xr3), .ADD_SUB(c2), .SUM(s1)); 
 addsub a2(.A(m1), .B(xi1),  .ADD_SUB(c3), .SUM(s2)); 

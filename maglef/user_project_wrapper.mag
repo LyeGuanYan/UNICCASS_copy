@@ -1,11 +1,11 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1697620438
+timestamp 1698161756
 << obsli1 >>
 rect 13104 5159 47236 39465
 << obsm1 >>
-rect 9398 76 292638 40112
+rect 9398 76 274882 40112
 << metal2 >>
 rect 8086 703520 8198 704960
 rect 24278 703520 24390 704960
@@ -538,7 +538,7 @@ rect 580970 -960 581082 480
 rect 582166 -960 582278 480
 rect 583362 -960 583474 480
 << obsm2 >>
-rect 9402 536 292632 40913
+rect 9402 536 274876 40913
 rect 9402 54 9870 536
 rect 10094 54 11066 536
 rect 11290 54 12262 536
@@ -764,21 +764,6 @@ rect 270178 54 271150 536
 rect 271374 54 272346 536
 rect 272570 54 273542 536
 rect 273766 54 274738 536
-rect 274962 54 275934 536
-rect 276158 54 277038 536
-rect 277262 54 278234 536
-rect 278458 54 279430 536
-rect 279654 54 280626 536
-rect 280850 54 281822 536
-rect 282046 54 283018 536
-rect 283242 54 284214 536
-rect 284438 54 285318 536
-rect 285542 54 286514 536
-rect 286738 54 287710 536
-rect 287934 54 288906 536
-rect 289130 54 290102 536
-rect 290326 54 291298 536
-rect 291522 54 292494 536
 << metal3 >>
 rect -960 697220 480 697460
 rect 583520 697084 584960 697324
@@ -3133,8 +3118,8 @@ port 645 nsew signal input
 string FIXED_BBOX 0 0 584000 704000
 string LEFclass BLOCK
 string LEFview TRUE
-string GDS_END 1511778
-string GDS_FILE /home/guanyanlye/unic-cass/caravel_tutorial/caravel_uniccas_example/openlane/user_project_wrapper/runs/23_10_18_17_12/results/signoff/user_project_wrapper.magic.gds
-string GDS_START 445470
+string GDS_END 1518590
+string GDS_FILE /home/guanyanlye/unic-cass/caravel_tutorial/caravel_uniccas_example/openlane/user_project_wrapper/runs/23_10_24_23_32/results/signoff/user_project_wrapper.magic.gds
+string GDS_START 449338
 << end >>
 
