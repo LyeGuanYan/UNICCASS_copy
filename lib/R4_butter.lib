@@ -218,7 +218,7 @@ library (R4_butter) {
   cell ("R4_butter") {
     pin("c1") {
       direction : input;
-      capacitance : 0.0024;
+      capacitance : 0.0030;
     }
     pin("c2") {
       direction : input;
@@ -259,13 +259,13 @@ library (R4_butter) {
         related_pin : "c1";
         timing_type : combinational;
 	cell_rise(template_1) {
-          values("0.67096,0.67785,0.69397,0.73298,0.83100,1.07720,1.69549");
+          values("0.66662,0.67351,0.68963,0.72863,0.82666,1.07286,1.69115");
 	}
 	rise_transition(template_1) {
           values("0.02139,0.02958,0.05068,0.10552,0.24738,0.60468,1.49884");
 	}
 	cell_fall(template_2) {
-          values("0.61376,0.61882,0.62948,0.65199,0.70397,0.83361,1.16090");
+          values("0.60942,0.61448,0.62514,0.64765,0.69962,0.82927,1.15656");
 	}
 	fall_transition(template_2) {
           values("0.01488,0.01932,0.02964,0.05520,0.12159,0.29620,0.72663");
@@ -392,13 +392,13 @@ library (R4_butter) {
         related_pin : "c1";
         timing_type : combinational;
 	cell_rise(template_3) {
-          values("0.67801,0.68494,0.70111,0.74013,0.83825,1.08445,1.70239");
+          values("0.67367,0.68059,0.69676,0.73578,0.83390,1.08010,1.69804");
 	}
 	rise_transition(template_3) {
           values("0.02160,0.02975,0.05078,0.10555,0.24743,0.60460,1.49790");
 	}
 	cell_fall(template_4) {
-          values("0.62033,0.62540,0.63607,0.65857,0.71055,0.84018,1.16759");
+          values("0.61598,0.62105,0.63172,0.65423,0.70620,0.83583,1.16324");
 	}
 	fall_transition(template_4) {
           values("0.01491,0.01935,0.02966,0.05522,0.12157,0.29631,0.72639");
