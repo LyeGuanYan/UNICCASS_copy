@@ -58,7 +58,7 @@ module user_project_wrapper #(
     // Logic Analyzer Signals
     input  [127:0] la_data_in,
     output [127:0] la_data_out,
-    input  [127:0] la_oenb,
+    input  [127:0] la_oenb, 
 
     // IOs
     input  [`MPRJ_IO_PADS-1:0] io_in,
@@ -78,9 +78,9 @@ module user_project_wrapper #(
     output [2:0] user_irq
 );
 
-/*--------------------------------------*/
+//--------------------------------------
 /* User project is instantiated  here   */
-/*--------------------------------------*/
+//--------------------------------------
 
 R4_butter R4_butter(
 `ifdef USE_POWER_PINS
@@ -92,16 +92,17 @@ R4_butter R4_butter(
     .xr1(la_data_in[15:12]),
     .xr2(la_data_in[19:16]),
     .xr3(la_data_in[23:20]),
-    .xi0(la_data_in[27:24]),
-    .xi1(la_data_in[31:28]),
-    .xi2(la_data_in[35:32]),
-    .xi3(la_data_in[39:36]),
-    .c1(la_data_in[40]),
-    .c2(la_data_in[41]),
-    .c3(la_data_in[42]),
+    .xi0(la_data_in[28:25]),
+    .xi1(la_data_in[33:30]),
+    .xi2(la_data_in[38:35]),
+    .xi3(la_data_in[43:40]),
+    .c1(la_data_in[45]),
+    .c2(la_data_in[46]),
+    .c3(la_data_in[47]),
     .Xro(la_data_out[11:8]),
-    .Xio(la_data_out[15:12]),
-    .la_oenb(la_oenb[15:8])
+    .Xio(la_data_out[16:13]),
+    .RST(wb_rst_i),
+    .CLK(wb_clk_i)
 
 );
 

@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/home/guanyanlye/unic-cass/caravel_tutorial/caravel_uniccas_example/venv"
+VIRTUAL_ENV="/home/guanyanlye/unic-cass/caravel_tutorial/Radix4_butterfly/venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
