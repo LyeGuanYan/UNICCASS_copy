@@ -101,6 +101,7 @@ R4_butter R4_butter(
     .c3(la_data_in[47]),
     .Xro(la_data_out[11:8]),
     .Xio(la_data_out[16:13]),
+    .la_oenb(la_oenb[7:0]),
     .RST(wb_rst_i),
     .CLK(wb_clk_i)
 
