@@ -1,7 +1,7 @@
 (DELAYFILE
  (SDFVERSION "3.0")
  (DESIGN "user_project_wrapper")
- (DATE "Wed Nov  1 17:44:32 2023")
+ (DATE "Fri Nov  3 16:38:18 2023")
  (VENDOR "Parallax")
  (PROGRAM "STA")
  (VERSION "2.3.3")
@@ -17,7 +17,7 @@
    (ABSOLUTE
     (INTERCONNECT la_data_in[10] R4_butter.xr0[2] (0.000:0.000:0.000))
     (INTERCONNECT la_data_in[11] R4_butter.xr0[3] (0.000:0.000:0.000))
-    (INTERCONNECT la_data_in[12] R4_butter.xr1[0] (0.001:0.001:0.001))
+    (INTERCONNECT la_data_in[12] R4_butter.xr1[0] (0.000:0.000:0.000))
     (INTERCONNECT la_data_in[13] R4_butter.xr1[1] (0.000:0.000:0.000))
     (INTERCONNECT la_data_in[14] R4_butter.xr1[2] (0.000:0.000:0.000))
     (INTERCONNECT la_data_in[15] R4_butter.xr1[3] (0.000:0.000:0.000))
@@ -41,7 +41,7 @@
     (INTERCONNECT la_data_in[36] R4_butter.xi2[1] (0.016:0.016:0.016))
     (INTERCONNECT la_data_in[37] R4_butter.xi2[2] (0.012:0.012:0.012))
     (INTERCONNECT la_data_in[38] R4_butter.xi2[3] (0.016:0.016:0.016))
-    (INTERCONNECT la_data_in[40] R4_butter.xi3[0] (0.023:0.023:0.023))
+    (INTERCONNECT la_data_in[40] R4_butter.xi3[0] (0.024:0.024:0.024))
     (INTERCONNECT la_data_in[41] R4_butter.xi3[1] (0.024:0.024:0.024))
     (INTERCONNECT la_data_in[42] R4_butter.xi3[2] (0.004:0.004:0.004))
     (INTERCONNECT la_data_in[43] R4_butter.xi3[3] (0.019:0.019:0.019))

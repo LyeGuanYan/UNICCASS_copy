@@ -8,7 +8,7 @@ alias deactivate 'test $?_OLD_VIRTUAL_PATH != 0 && setenv PATH "$_OLD_VIRTUAL_PA
 # Unset irrelevant variables.
 deactivate nondestructive
 
-setenv VIRTUAL_ENV "/home/guanyanlye/unic-cass/caravel_tutorial/Radix4_butterfly/venv"
+setenv VIRTUAL_ENV "/home/guanyanlye/unic-cass/caravel_tutorial/caravel_user_example/venv"
 
 set _OLD_VIRTUAL_PATH="$PATH"
 setenv PATH "$VIRTUAL_ENV/bin:$PATH"

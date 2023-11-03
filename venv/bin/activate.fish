@@ -33,7 +33,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/home/guanyanlye/unic-cass/caravel_tutorial/Radix4_butterfly/venv"
+set -gx VIRTUAL_ENV "/home/guanyanlye/unic-cass/caravel_tutorial/caravel_user_example/venv"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH

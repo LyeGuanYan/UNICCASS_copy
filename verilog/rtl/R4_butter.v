@@ -43,8 +43,8 @@ DFF DFF7  (.Q(Q7), .D(xr2), .CLOCK(CLK), .RESET(RST)); //mux2(in0)
 DFF DFF8  (.Q(Q8), .D(xi2), .CLOCK(CLK), .RESET(RST)); //mux2(in1)
 DFF DFF9  (.Q(Q9), .D(xi2), .CLOCK(CLK), .RESET(RST)); //mux3(in0)
 DFF DFF10 (.Q(Q10), .D(xr2), .CLOCK(CLK), .RESET(RST)); //mux3(in1)
-DFF DFF11 (.Q(Q11), .D(xr2), .CLOCK(CLK), .RESET(RST)); //a1(B)
-DFF DFF12 (.Q(Q12), .D(xi2), .CLOCK(CLK), .RESET(RST)); //a3(B)
+DFF DFF11 (.Q(Q11), .D(xr3), .CLOCK(CLK), .RESET(RST)); //a1(B)
+DFF DFF12 (.Q(Q12), .D(xi3), .CLOCK(CLK), .RESET(RST)); //a3(B)
 
 //FF at the outputs
 DFF DFF13  (.Q(Xro), .D(Q13), .CLOCK(CLK), .RESET(RST)); //b0(SUM)
