@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1699029509
+timestamp 1699288392
 << obsli1 >>
 rect 155304 5759 189436 40065
 << obsm1 >>
@@ -895,7 +895,7 @@ rect 583520 32996 584960 33236
 rect 583520 19668 584960 19908
 rect 583520 6476 584960 6716
 << obsm3 >>
-rect 158410 35 275067 40081
+rect 158410 35 267615 40081
 << metal4 >>
 rect -8726 -7654 -8106 711590
 rect -7766 -6694 -7146 710630
@@ -3139,8 +3139,8 @@ port 645 nsew signal input
 string FIXED_BBOX 0 0 584000 704000
 string LEFclass BLOCK
 string LEFview TRUE
-string GDS_END 1566982
-string GDS_FILE /home/guanyanlye/unic-cass/caravel_tutorial/caravel_user_example/openlane/user_project_wrapper/runs/23_11_04_00_37/results/signoff/user_project_wrapper.magic.gds
-string GDS_START 509186
+string GDS_END 1547154
+string GDS_FILE /home/guanyanlye/unic-cass/caravel_tutorial/UNICCASS_copy/openlane/user_project_wrapper/runs/23_11_07_00_31/results/signoff/user_project_wrapper.magic.gds
+string GDS_START 500622
 << end >>
 
