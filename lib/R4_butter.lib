@@ -185,7 +185,7 @@ library (R4_butter) {
     }
     pin("xi0[0]") {
       direction : input;
-      capacitance : 0.0030;
+      capacitance : 0.0032;
     }
     }
     bus("xi1") {
@@ -206,7 +206,7 @@ library (R4_butter) {
     }
     pin("xi1[0]") {
       direction : input;
-      capacitance : 0.0031;
+      capacitance : 0.0035;
     }
     }
     bus("xi2") {
@@ -227,7 +227,7 @@ library (R4_butter) {
     }
     pin("xi2[0]") {
       direction : input;
-      capacitance : 0.0034;
+      capacitance : 0.0031;
     }
     }
     bus("xi3") {
@@ -248,7 +248,7 @@ library (R4_butter) {
     }
     pin("xi3[0]") {
       direction : input;
-      capacitance : 0.0030;
+      capacitance : 0.0033;
     }
     }
     bus("xr0") {
@@ -269,7 +269,7 @@ library (R4_butter) {
     }
     pin("xr0[0]") {
       direction : input;
-      capacitance : 0.0030;
+      capacitance : 0.0033;
     }
     }
     bus("xr1") {
@@ -290,7 +290,7 @@ library (R4_butter) {
     }
     pin("xr1[0]") {
       direction : input;
-      capacitance : 0.0031;
+      capacitance : 0.0034;
     }
     }
     bus("xr2") {
@@ -311,7 +311,7 @@ library (R4_butter) {
     }
     pin("xr2[0]") {
       direction : input;
-      capacitance : 0.0030;
+      capacitance : 0.0032;
     }
     }
     bus("xr3") {
@@ -332,7 +332,7 @@ library (R4_butter) {
     }
     pin("xr3[0]") {
       direction : input;
-      capacitance : 0.0032;
+      capacitance : 0.0033;
     }
     }
   }
